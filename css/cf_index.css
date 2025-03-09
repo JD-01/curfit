@@ -1,0 +1,70 @@
+/* ========================================================== */
+/* == Contenedor base ======================================= */
+
+.cf_contenedor-header {
+  min-height: 700px;  
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38)), url("../recursos/imagenes/cf_fondo-1_t-1.png");
+}
+
+/* ======================================================================================= */
+/* == Contenedor de textos Eleva tu ..., Explora cursos de ..., y botón Escoje tu Curso == */
+
+.cf_contenedor-header_d-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 622px;
+  height: 100%;
+  background-image: url("../recursos/imagenes/cf_fondo-2_t-1.png");
+  background-position: center 78px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+/* == Parrafo Eleva tu Experiencia == */
+.cf_contenedor-header_d-1_p-1 {
+  font-size: 6em;
+  color: #FFF;
+  line-height: 1em;
+  text-align: center;
+}
+/* == Parrafo Explora cursos de running, ..., Texto: ¡Comienza tu viaje hacia ... == */
+/* == Parrafo ¡Comienza tu viaje hacia el bienestar con nosotros! == */
+.cf_contenedor-header_d-1_p-2,
+.cf_contenedor-header_d-1_p-3 {
+  font-size: 1.25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+.cf_contenedor-header_d-1_p-2 {
+  margin-top: 18px;
+}
+.cf_contenedor-header_d-1_p-3 {
+  margin-top: 6px;
+}
+/* == Enlace Elige tu Curso == */
+.cf_contenedor-header_d-1_a-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 236px;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 51px;
+  padding: 0 6px;  
+  border-radius: 5px;
+  background-color: #3F9521;
+  font-size: 1.125em;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+}
+.cf_contenedor-header_d-1_a-1:hover {
+  background-color: #3F9521;
+  background-image: linear-gradient(#3F9521, #46A525);
+}
+.cf_contenedor-header_d-1_a-1:active {
+  background-color: #46A525;
+  background-image: none;
+}

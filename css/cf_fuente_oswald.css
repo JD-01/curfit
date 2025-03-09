@@ -1,0 +1,60 @@
+/* == Oswald - Extra Light (200) ==== */
+@font-face {
+  font-family: 'Oswald Extra Light';
+  src: local(''),
+       url('../recursos/fuentes/ttf/oswald_200_extra-light.ttf')     format('truetype'), /* Safari, Android, iOS */
+       url('../recursos/fuentes/woff/oswald_200_extra-light.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/woff2/oswald_200_extra-light.woff2') format('woff2');    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+  font-weight: 200;
+  font-style: normal;
+}
+/* == Oswald - Light (300) ==== */
+@font-face {
+  font-family: 'Oswald Light';
+  src: local(''),
+       url('../recursos/fuentes/ttf/oswald_300_light.ttf')     format('truetype'), /* Safari, Android, iOS */
+       url('../recursos/fuentes/woff/oswald_300_light.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/woff2/oswald_300_light.woff2') format('woff2');    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+  font-weight: 300;
+  font-style: normal;
+}
+/* == Oswald - Regular (400) ==== */
+@font-face {
+  font-family: 'Oswald Regular';
+  src: local(''),
+       url('../recursos/fuentes/ttf/oswald_400_regular.ttf')     format('truetype'), /* Safari, Android, iOS */
+       url('../recursos/fuentes/woff/oswald_400_regular.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/woff2/oswald_400_regular.woff2') format('woff2');    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+  font-weight: 400;
+  font-style: normal;
+}
+/* == Oswald - Medium (500) ==== */
+@font-face {
+  font-family: 'Oswald Medium';
+  src: local(''),
+       url('../recursos/fuentes/ttf/oswald_500_medium.ttf')     format('truetype'), /* Safari, Android, iOS */
+       url('../recursos/fuentes/woff/oswald_500_medium.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/woff2/oswald_500_medium.woff2') format('woff2');    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+  font-weight: 500;
+  font-style: normal;
+}
+/* == Oswald - Semi Bold (600) ==== */
+@font-face {
+  font-family: 'Oswald Semi Bold';
+  src: local(''),
+       url('../recursos/fuentes/ttf/oswald_600_semi-bold.ttf')     format('truetype'), /* Safari, Android, iOS */
+       url('../recursos/fuentes/woff/oswald_600_semi-bold.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/woff2/oswald_600_semi-bold.woff2') format('woff2');    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+  font-weight: 600;
+  font-style: normal;
+}
+/* == Oswald - Bold (700) ==== */
+@font-face {
+  font-family: 'Oswald Bold';
+  src: local(''),
+       url('../recursos/fuentes/ttf/oswald_700_bold.ttf')     format('truetype'), /* Safari, Android, iOS */
+       url('../recursos/fuentes/woff/oswald_700_bold.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/woff2/oswald_700_bold.woff2') format('woff2');    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+  font-weight: 700;
+  font-style: normal;
+}

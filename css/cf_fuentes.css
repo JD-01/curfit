@@ -1,0 +1,160 @@
+/* ========================================================== */
+/* == Imports =============================================== */
+
+@import url("cf_fuente_archivo.css");
+@import url("cf_fuente_oswald.css");
+@import url("cf_fuente_roboto.css");
+
+/* ========================================================== */
+/* == Propiedades Comunes =================================== */
+
+.archivo-black,
+.archivo-black-italic {
+  /*font-stretch: normal;*/
+  font-variant: normal;
+  font-size: 1em;
+  line-height: normal;
+  /*font-size: 0.875em;*/
+}
+
+/* ========================================================== */
+/* == Archivo =============================================== */
+
+/* == Archivo - Black (900) ==== */
+.archivo-black {
+  font-family: "Archivo Black";
+  font-weight: 900;
+}
+/* == Archivo - Black (900) - Italic ==== */
+.archivo-black-italic {
+  font-family: "Archivo Black Italic";
+  font-weight: 900;
+}
+
+/* ========================================================== */
+/* == Oswald ================================================ */
+
+/* == Oswald - Extra Light (200) ==== */
+.oswald-extra-light {
+  font-family: "Oswald Extra Light";
+  font-weight: 200;
+}
+/* == Oswald - Light (300) ==== */
+.oswald-light {
+  font-family: "Oswald Light";
+  font-weight: 300;
+}
+/* == Oswald - Regular (400) ==== */
+.oswald-regular {
+  font-family: "Oswald Regular";
+  font-weight: 400;
+}
+/* == Oswald - Medium (500) ==== */
+.oswald-medium {
+  font-family: "Oswald Medium";
+  font-weight: 500;
+}
+/* == Oswald - Semi Bold (600) ==== */
+.oswald-semi-bold {
+  font-family: "Oswald Semi Bold";
+  font-weight: 600;
+}
+/* == Oswald - Bold (700) ==== */
+.oswald-bold {
+  font-family: "Oswald Bold";
+  font-weight: 700;
+}
+
+/* ========================================================== */
+/* == Roboto ================================================ */
+
+/* == Roboto - Thin (100) ==== */
+.roboto-thin {
+  font-family: "Roboto Thin";
+  font-weight: 100;
+}
+/* == Roboto - Thin (100) - Italic ==== */
+.roboto-thin-italic {
+  font-family: "Roboto Thin Italic";
+  font-weight: 100;
+}
+/* == Roboto - Extra Light (200) ==== */
+.roboto-extra-light {
+  font-family: "Roboto Extra Light";
+  font-weight: 200;
+}
+/* == Roboto - Extra Light (200) - Italic ==== */
+.roboto-extra-light-italic {
+  font-family: "Roboto Extra Light Italic";
+  font-weight: 200;
+}
+/* == Roboto - Light (300) ==== */
+.roboto-light {
+  font-family: "Roboto Light";
+  font-weight: 300;
+}
+/* == Roboto - Light (300) - Italic ==== */
+.roboto-light-italic {
+  font-family: "Roboto Light Italic";
+  font-weight: 300;
+}
+/* == Roboto - Regular (400) ==== */
+.roboto-regular {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+}
+/* == Roboto - Regular (400) - Italic ==== */
+.roboto-regular-italic {
+  font-family: "Roboto Regular Italic";
+  font-weight: 400;
+}
+/* == Roboto - Medium (500) ==== */
+.roboto-medium {
+  font-family: "Roboto Medium";
+  font-weight: 500;
+}
+/* == Roboto - Medium (500) - Italic ==== */
+.roboto-medium-italic {
+  font-family: "Roboto Medium Italic";
+  font-weight: 500;
+}
+/* == Roboto - Semi Bold (600) ==== */
+.roboto-semi-bold {
+  font-family: "Roboto Semi Bold";
+  font-weight: 600;
+}
+/* == Roboto - Semi Bold (600) - Italic ==== */
+.roboto-semi-bold-italic {
+  font-family: "Roboto Semi Bold Italic";
+  font-weight: 600;
+}
+/* == Roboto - Bold (700) ==== */
+.roboto-bold {
+  font-family: "Roboto Bold";
+  font-weight: 700;
+}
+/* == Roboto - Bold (700) - Italic ==== */
+.roboto-bold-italic {
+  font-family: "Roboto Bold Italic";
+  font-weight: 700;
+}
+/* == Roboto - Extra Bold (800) ==== */
+.roboto-extra-bold {
+  font-family: "Roboto Extra Bold";
+  font-weight: 800;
+}
+/* == Roboto - Extra Bold (800) - Italic ==== */
+.roboto-extra-bold-italic {
+  font-family: "Roboto Extra Bold Italic";
+  font-weight: 800;
+}
+/* == Roboto - Black (900) ==== */
+.roboto-black {
+  font-family: "Roboto Black";
+  font-weight: 900;
+}
+/* == Roboto - Black (900) - Italic ==== */
+.roboto-black-italic {
+  font-family: "Roboto Black Italic";
+  font-weight: 900;
+}

@@ -17,6 +17,7 @@
   align-items: center;
   min-height: 622px;
   height: 100%;
+  padding: 0 12px;
   background-image: url("../recursos/imagenes/cf_fondo-2_t-1.png");
   background-position: center 78px;
   background-repeat: no-repeat;
@@ -67,4 +68,46 @@
 .cf_contenedor-header_d-1_a-1:active {
   background-color: #46A525;
   background-image: none;
+}
+
+/* ========================================================== */
+/* == Media Queries ========================================= */
+
+/* == Resolución de ancho mínimo de 540px =================== */
+@media (max-width: 540px)
+{
+  /* == Parrafo Eleva tu Experiencia == */
+  .cf_contenedor-header_d-1_p-1 {
+    font-size: 5em;    
+  }
+  /* == Parrafo Explora cursos de running, ..., Texto: ¡Comienza tu viaje hacia ... == */
+  /* == Parrafo ¡Comienza tu viaje hacia el bienestar con nosotros! == */
+  .cf_contenedor-header_d-1_p-2,
+  .cf_contenedor-header_d-1_p-3 {
+    font-size: 1em;
+  }
+}
+/* == Resolución de ancho mínimo de 480px =================== */
+@media (max-width: 480px)
+{
+  /* == Parrafo Eleva tu Experiencia == */
+  .cf_contenedor-header_d-1_p-1 {
+    font-size: 4em;
+  }
+}
+/* == Resolución de ancho mínimo de 360px =================== */
+@media (max-width: 360px)
+{
+  /* == Parrafo Eleva tu Experiencia == */
+  .cf_contenedor-header_d-1_p-1 {
+    font-size: 3em;
+  }
+}
+/* == Resolución de ancho mínimo de 240px =================== */
+@media (max-width: 260px)
+{
+  /* == Parrafo Eleva tu Experiencia == */
+  .cf_contenedor-header_d-1_p-1 {
+    font-size: 2.5em;
+  }
 }

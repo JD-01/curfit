@@ -20,6 +20,14 @@ document.addEventListener ( 'DOMContentLoaded', ( ) =>
     let cf_vMenu2 = document.getElementById ( 'cf_menu-2' );
         cf_vMenu2.vVisible = false;
     //
+    let cf_vBotonMenu3 = document.getElementById ( 'cf_button-menu-3' );
+        cf_vBotonMenu3.vFlecha = document.getElementById ( 'cf_button-menu-3_flecha' );
+    //
+    let cf_vMenu3 = document.getElementById ( 'cf_menu-3' );
+        cf_vMenu3.vVisible = false;
+
+    // ========================================================
+    //
     cf_vBotonMenu1.addEventListener ( 'click', ( ) =>
     {
       if ( ! cf_vMenu1.vVisible ) {
@@ -40,6 +48,7 @@ document.addEventListener ( 'DOMContentLoaded', ( ) =>
       }
     });
 
+    // ========================================================
     //
     cf_vBotonMenu2.addEventListener ( 'click', ( ) =>
     {
@@ -56,7 +65,25 @@ document.addEventListener ( 'DOMContentLoaded', ( ) =>
         cf_vMenu2.className  = 'cf_header_d-1_nav-1_d-1_d-2 cf_header_d-1_nav-1_d-1_d-2_e-1';
       }
     });
-  } 
+
+    // ========================================================
+    //
+    cf_vBotonMenu3.addEventListener ( 'click', ( ) =>
+    {
+      if ( ! cf_vMenu3.vVisible ) {
+        cf_vMenu3.vVisible = true;
+        cf_vBotonMenu3.vFlecha.className  = 'cf_g_flecha-t-1 cf_g_flecha-t-1_e-1';
+        //
+        cf_vMenu3.className  = 'cf_footer_d-1_d-1_d-3_d-2 cf_footer_d-1_d-1_d-3_d-2_e-2';
+      }
+      else {
+        cf_vMenu3.vVisible = false;
+        cf_vBotonMenu3.vFlecha.className  = 'cf_g_flecha-t-1 cf_g_flecha-t-1_e-2';
+        //
+        cf_vMenu3.className  = 'cf_footer_d-1_d-1_d-3_d-2 cf_footer_d-1_d-1_d-3_d-2_e-1';
+      }
+    });
+  }
   catch ( vError )
   {
     console.error ( vError );

@@ -2,7 +2,7 @@
 /* == Contenedor base ======================================= */
 
 .cf_contenedor-header {
-  min-height: 700px;  
+  min-height: 700px;
   height: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38)), url("../recursos/imagenes/cf_fondo-1_t-1.png");
 }

@@ -13,11 +13,89 @@ html, body {
 /* ======== */
 body {
   background-color: #2E2C2C;
-  /*background-color: #202124;*/
 }
 /* ======== */
 body, button {
   font-size: 100%;
+}
+/* == Enlace de Imagen-Texto CurFit == */
+.cf_g_a-curfit {
+  font-size: 1.5em;
+  color: #EC3E28;
+  text-decoration: none;
+}
+.cf_g_a-curfit:hover {
+  color: #F16F5E;
+}
+/* == Flecha abajo-arriba == */
+.cf_g_flecha-t-1 {
+  position: relative;
+  min-width: 17px;
+  width: 17px;
+  min-height: 17px;
+  height: 17px;
+}
+/* == Botón de flecha abajo-arriba - Estado 1 == */
+.cf_g_flecha-t-1_e-1 {
+  -webkit-transform: rotate(-180deg); -moz-transform: rotate(-180deg); transform: rotate(-180deg);
+  transition: 0.1s ease;
+}
+/* == Botón de flecha abajo-arriba - Estado 2 == */
+.cf_g_flecha-t-1_e-2 {
+  -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); transform: rotate(0deg);
+  transition: 0.1s ease;
+}
+/* == Flecha abajo-arriba == */
+.cf_g_flecha-t-1 hr {
+  display: block;
+  position: absolute;
+  top: 2px;
+  width: 2px;
+  height: 12px;
+  border-radius: 2px;
+  border: none;
+  background-color: #FFF;
+}
+.cf_g_flecha-t-1_hr-1 {
+  left: 4px;
+  -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); transform: rotate(-45deg);
+}
+.cf_g_flecha-t-1_hr-2 {
+  right: 4px;
+  -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg);
+}
+
+/* == Menú (Tipo 1. Enlaces de cursos e idiomas) == */
+.cf_g_menu-t-1 {
+  border-radius: 6px;
+  border: solid 1px rgba(255, 255, 255, 0.12);
+  background-image: linear-gradient(#111, #1D1D1D);
+  box-shadow: 4px 4px 7px -2px #111; /*#1D1D1D*/
+}
+/* == Contenedor del menú 2 (versión desktop - enlaces de cursos) - Estado 1 == */
+.cf_g_menu-t-1_e-1 {
+  display: none;
+}
+/* == Contenedor del menú 2 (versión desktop - enlaces de cursos) - Estado 2 == */
+.cf_g_menu-t-1_e-2 {
+  display: block;
+}
+/* == Enlace de curso o idioma == */
+.cf_g_menu-t-1 a {
+  display: block;
+  padding: 12px 12px 0;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: left;
+  text-decoration: none;
+}
+.cf_g_menu-t-1 a:last-child {
+  padding-bottom: 12px;
+}
+.cf_g_menu-t-1 a:hover {
+  color: #F16F5E;
+}
+.cf_g_menu-t-1 a:active {
+  color: #EC3E28;
 }
 
 /* ========================================================== */
@@ -27,7 +105,10 @@ body, button {
   max-width: 1400px;
   margin: auto;
 }
-/* == Contenedor del header, textos de presentación y botón Elije tu Curso == */
+/* ==
+Contenedor del header y elementos variables según la página:
+index : Contenedor del header, textos de presentación y botón Elije tu Curso
+== */
 .cf_contenedor-header {
   background-color: #1A1919;
   background-position: center;
@@ -46,9 +127,8 @@ body, button {
 }
 /* == Enlace tipo 2 == */
 .cf_g_header_a-t-2 {
-  /*font-size: 1em;*/
   color: rgba(255, 255, 255, 0.75);
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 /* ========================================================== */
@@ -59,10 +139,8 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 78px;
-  /*min-height: 71px;*/
   padding: 0 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  /*background-color: rgba(0, 0, 0, 0.35);*/
   background-color: rgba(0, 0, 0, 0.6);
   -webkit-backdrop-filter: blur(43.8px);
   backdrop-filter: blur(43.8px);
@@ -160,7 +238,7 @@ header {
 }
 /* == Contenedor de equis (x) - Estado 2 == */
 .cf_header_d-1_button-1_d-2_e-2 {
-  display: block;  
+  display: block;
 }
 /* == Equis (x) == */
 .cf_header_d-1_button-1_d-2 .hr-1,
@@ -237,12 +315,6 @@ header {
 /* == Enlace de Imagen-Texto CurFit == */
 .cf_header_d-1_a-1 {
   display: flex;
-  font-size: 1.5em;
-  color: #EC3E28;
-  text-decoration: none;
-}
-.cf_header_d-1_a-1:hover {
-  color: #F16F5E;
 }
 /* == Imagen-Texto CurFit == */
 .cf_header_d-1_a-1 img {
@@ -310,6 +382,7 @@ header {
   display: block;
   position: absolute;
   top: 2px;
+  /*top: -1px;*/
   width: 2px;
   height: 12px;
   border-radius: 2px;
@@ -322,7 +395,7 @@ header {
 }
 .cf_header_d-1_nav-1_d-1_button-1 .hr-2 {
   right: 4px;
-  -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg);  
+  -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg);
 }
 /* == Contenedor del menú 2 (versión desktop - enlaces de cursos) == */
 .cf_header_d-1_nav-1_d-1_d-2 {
@@ -339,7 +412,7 @@ header {
 }
 /* == Contenedor del menú 2 (versión desktop - enlaces de cursos) - Estado 2 == */
 .cf_header_d-1_nav-1_d-1_d-2_e-2 {
-  display: block;  
+  display: block;
 }
 /* == Enlace de curso == */
 .cf_header_d-1_nav-1_d-1_d-2 a {
@@ -397,7 +470,6 @@ header {
   content: url("../recursos/iconos/icono-carrito_t-1_e-2.png");
 }
 .cf_header_d-1_nav-2 a:active .img-1 {
-  /*background-color: #EC3E28;*/
   content: url("../recursos/iconos/icono-carrito_t-1_e-3.png");
 }
 /* == Enlace Mi cuenta == */
@@ -418,8 +490,332 @@ header {
 }
 
 /* ========================================================== */
+/* == Footer ================================================ */
+
+footer {
+  background-color: #1C1C1C;
+}
+/* == Contenedor de elementos del footer (Superior) == */
+.cf_footer_d-1 {
+  min-height: 360px;
+  padding: 70px 12px;
+}
+/* == Contenedor de enlace imagen-texto CurFit y párrafo Explora cursos de running ..., enlaces de Carreras y Acerca de, enlace Síguenos y botón Idioma == */
+.cf_footer_d-1_d-1 {
+  display: flex;
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+/* == Contenedor de enlace de imagen-texto CurFit y párrafo Explora cursos de running ... == */
+.cf_footer_d-1_d-1_d-1 {
+  max-width: 580px;
+  width: 100%;
+  padding-right: 18px;
+}
+/* == Enlace de Imagen-Texto CurFit == */
+.cf_footer_d-1_d-1_d-1 a {
+  display: table;
+}
+/* == Imagen-Texto CurFit == */
+.cf_footer_d-1_d-1_d-1 a img {
+  display: block;
+  width: 125px;
+  height: 39px;
+}
+/* == Párrafo Explora cursos de running == */
+.cf_footer_d-1_d-1_d-1 p {
+  max-width: 460px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.25em;
+  line-height: 1.4em;
+  color: rgba(255, 244, 244, 0.75);
+}
+/* == Contenedor adaptable (Contenedor Carreras, Acerca de y contenedor de Síguenos e Idioma) == */
+.cf_footer_d-1_d-1_d-flex-1 {
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+}
+/* == Contenedor de Carreras y Acerca de == */
+.cf_footer_d-1_d-1_d-2 {
+  display: flex;
+  max-width: 510px;
+  width: 100%;
+}
+/* == Contenedores Carreras y Acerca de == */
+.cf_footer_d-1_d-1_d-2_d-1,
+.cf_footer_d-1_d-1_d-2_d-2 {
+  width: 100%;
+  padding-right: 18px;
+}
+/* == Contenedor Carreras == */
+.cf_footer_d-1_d-1_d-2_d-1 {
+  max-width: 270px;
+}
+/* == Contenedor Acerca de == */
+.cf_footer_d-1_d-1_d-2_d-2 {
+  max-width: 240px;
+}
+/* == Parrafos Carreras y Acerca de == */
+.cf_footer_d-1_d-1_d-2 div p {
+  font-size: 1.25em;
+  color: #FFF;
+}
+/* == Enlaces de Carreras y Acerca de == */
+.cf_footer_d-1_d-1_d-2 div a {
+  display: block;
+  margin-top: 18px;
+  font-size: 1.25em;
+  color: rgba(255, 244, 244, 0.75);
+  text-decoration: none;
+}
+.cf_footer_d-1_d-1_d-2 div a:first-of-type {
+  margin-top: 29px;
+}
+.cf_footer_d-1_d-1_d-2 div a:hover {
+  color: #F16F5E;
+}
+.cf_footer_d-1_d-1_d-2 div a:active {
+  color: #EC3E28;
+}
+/* == Contenedor de enlaces de Síguenos e Idioma == */
+.cf_footer_d-1_d-1_d-3 {
+  max-width: 190px;
+  width: 100%;
+}
+/* == Contenedor adaptable (Contenedor de párrafo y enlaces de Síguenos) == */
+/* == == Párrafo Síguenos == */
+.cf_footer_d-1_d-1_d-3_p-1 {
+  font-size: 1.25em;
+  color: #FFF;
+}
+/* == Contenedor de enlaces de Síguenos == */
+.cf_footer_d-1_d-1_d-3_d-1 {
+  display: flex;
+  gap: 9px;
+  margin-top: 12px;
+}
+/* == Enlaces de iconos Telegram, Facebook y Youtube == */
+.cf_footer_d-1_d-1_d-3_d-1_a-1,
+.cf_footer_d-1_d-1_d-3_d-1_a-2,
+.cf_footer_d-1_d-1_d-3_d-1_a-3,
+.cf_footer_d-1_d-1_d-3_d-1_a-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.03);
+  text-decoration: none;
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-1:hover,
+.cf_footer_d-1_d-1_d-3_d-1_a-2:hover,
+.cf_footer_d-1_d-1_d-3_d-1_a-3:hover,
+.cf_footer_d-1_d-1_d-3_d-1_a-4:hover {
+  border: solid 2px #F16F5E;
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-1:active,
+.cf_footer_d-1_d-1_d-3_d-1_a-2:active,
+.cf_footer_d-1_d-1_d-3_d-1_a-3:active,
+.cf_footer_d-1_d-1_d-3_d-1_a-4:active {
+  border: solid 2px #EC3E28;
+}
+/* == Iconos Telegram, Facebook y Youtube == */
+.cf_footer_d-1_d-1_d-3_d-1_a-1 img,
+.cf_footer_d-1_d-1_d-3_d-1_a-2 img,
+.cf_footer_d-1_d-1_d-3_d-1_a-3 img,
+.cf_footer_d-1_d-1_d-3_d-1_a-4 img {
+  display: block;
+  font-size: 0.75em;
+  color: #FFF;
+}
+/* == Icono Telegram == */
+.cf_footer_d-1_d-1_d-3_d-1_a-1 img {
+  width: 14px;
+  height: 14px;
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-1:hover img {
+  content: url("../recursos/iconos/icono-instagram_t-1_e-2.png");
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-1:active img {
+  content: url("../recursos/iconos/icono-instagram_t-1_e-3.png");
+}
+/* == Icono Facebook == */
+.cf_footer_d-1_d-1_d-3_d-1_a-2 img {
+  width: 16px;
+  height: 16px;
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-2:hover img {
+  content: url("../recursos/iconos/icono-facebook_t-1_e-2.png");
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-2:active img {
+  content: url("../recursos/iconos/icono-facebook_t-1_e-3.png");
+}
+/* == Icono Youtube == */
+.cf_footer_d-1_d-1_d-3_d-1_a-3 img {
+  width: 18px;
+  height: 12px;
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-3:hover img {
+  content: url("../recursos/iconos/icono-youtube_t-1_e-2.png");
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-3:active img {
+  content: url("../recursos/iconos/icono-youtube_t-1_e-3.png");
+}
+/* == Icono LinkedIn == */
+.cf_footer_d-1_d-1_d-3_d-1_a-4 img {
+  width: 16px;
+  height: 16px;
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-4:hover img {
+  content: url("../recursos/iconos/icono-linkedin_t-1_e-2.png");
+}
+.cf_footer_d-1_d-1_d-3_d-1_a-4:active img {
+  content: url("../recursos/iconos/icono-linkedin_t-1_e-3.png");
+}
+/* == Contenedor adaptable (Botón Idioma y contenedor de enlaces de idiomas (Menú 3)) == */
+.cf_footer_d-1_d-1_d-3_d-flex-2 {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+/* == Botón Idioma == */
+.cf_footer_d-1_d-1_d-3_d-1_button-1 {
+  display: flex;
+  gap: 6px;
+  max-width: 190px;
+  min-height: 24px;
+  border: none;
+  background-color: transparent;
+}
+/* == Icono globo de idioma == */
+.cf_footer_d-1_d-1_d-3_d-1_button-1 img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  font-size: 0.75em;
+  color: #FFF;
+}
+/* == Párrafo Idioma == */
+.cf_footer_d-1_d-1_d-3_d-1_button-1 p {
+  font-size: 1.25em;
+  color: rgba(255, 244, 244, 0.75);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cf_footer_d-1_d-1_d-3_d-1_button-1:hover p {
+  overflow: auto;
+}
+/* == Contenedor de flecha abajo-arriba == */
+.cf_footer_d-1_d-1_d-3_d-1_button-1 div {
+  margin-top: 5px;
+}
+.cf_footer_d-1_d-1_d-3_d-1_button-1:hover .cf_g_flecha-t-1 hr {
+  background-color: #F16F5E;
+}
+.cf_footer_d-1_d-1_d-3_d-1_button-1:active .cf_g_flecha-t-1 hr {
+  background-color: #EC3E28;
+}
+/* == Contenedor de enlaces de idiomas (Menú 3) == */
+.cf_footer_d-1_d-1_d-3_d-2 {
+  margin-top: 2px;
+  border-radius: 6px;
+  border: solid 1px rgba(255, 255, 255, 0.12);
+  background-image: linear-gradient(#111, #1D1D1D);
+  box-shadow: 4px 4px 7px -2px #111;
+}
+/* == Contenedor del menú 2 (versión desktop - enlaces de cursos) - Estado 1 == */
+.cf_footer_d-1_d-1_d-3_d-2_e-1 {
+  display: none;
+}
+/* == Contenedor del menú 2 (versión desktop - enlaces de cursos) - Estado 2 == */
+.cf_footer_d-1_d-1_d-3_d-2_e-2 {
+  display: flex;
+  flex-direction: column;
+}
+/* == Enlace de idioma == */
+.cf_footer_d-1_d-1_d-3_d-2 a {
+  display: block;
+  padding: 12px 12px 0;
+  font-size: 1.25em;
+  color: rgba(255, 244, 244, 0.75);
+  text-align: left;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cf_footer_d-1_d-1_d-3_d-2 a:last-child {
+  padding-bottom: 12px;
+}
+.cf_footer_d-1_d-1_d-3_d-2 a:hover {
+  overflow: auto;
+  color: #F16F5E;
+}
+.cf_footer_d-1_d-1_d-3_d-2 a:active {
+  color: #EC3E28;
+}
+
+/* ========================================================== */
 /* == Media Queries ========================================= */
 
+/* == Resolución de ancho máximo de 1160px ================== */
+@media (max-width: 1160px)
+{
+  /* == Párrafo Explora cursos de running == */
+  .cf_footer_d-1_d-1_d-1 p {
+    font-size: 1em;
+  }
+  /* == Enlaces de Carreras y Acerca de == */
+  .cf_footer_d-1_d-1_d-2 div a {
+    font-size: 1em;
+  }
+  /* == Párrafo Idioma == */
+  .cf_footer_d-1_d-1_d-3_d-1_button-1 p {
+    padding-top: 3px;
+    font-size: 1em;
+  }
+  /* == Enlace de idioma == */
+  .cf_footer_d-1_d-1_d-3_d-2 a {
+    font-size: 1em;
+  }
+}
+/* == Resolución de ancho máximo de 1080px ================== */
+@media (max-width: 980px)
+{
+  /* == Contenedor de elementos del footer (Superior) == */
+  .cf_footer_d-1 {
+    padding: 20px 12px 60px;
+  }
+  /* == Contenedor de enlace imagen-texto CurFit y párrafo Explora cursos de running ..., enlaces de Carreras y Acerca de, enlace Síguenos y botón Idioma == */
+  .cf_footer_d-1_d-1 {
+    flex-direction: column;
+  }
+  /* == Contenedor de enlace de imagen-texto CurFit y párrafo Explora cursos de running ... == */
+  .cf_footer_d-1_d-1_d-1 {
+    max-width: none;
+    padding-right: 0;
+  }
+  /* == Enlace de Imagen-Texto CurFit == */
+  .cf_footer_d-1_d-1_d-1 a {
+    margin: auto;
+  }
+  /* == Párrafo Explora cursos de running == */
+  .cf_footer_d-1_d-1_d-1 p {
+    max-width: none;
+    width: auto;
+    padding: 0 12px;
+    text-align: center;
+  }
+  /* == Contenedor adaptable (Contenedor Carreras, Acerca de y contenedor de Síguenos e Idioma) == */
+  .cf_footer_d-1_d-1_d-flex-1 {
+    margin: 30px auto 0;
+    padding: 0 12px;
+  }
+}
 /* == Resolución de ancho máximo de 870px =================== */
 @media (max-width: 870px)
 {
@@ -443,6 +839,62 @@ header {
   .cf_header_d-1_button-1 {
     display: block;
   }
+  /* == Contenedor adaptable (Contenedor Carreras, Acerca de y contenedor de Síguenos e Idioma) == */
+  .cf_footer_d-1_d-1_d-flex-1 {
+    flex-direction: column;
+  }
+  /* == Contenedor de Carreras y Acerca de == */
+  .cf_footer_d-1_d-1_d-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    max-width: 360px;
+    margin: auto;
+  }
+  /* == Contenedor Carreras == */
+  /* == Contenedor Acerca de == */
+  .cf_footer_d-1_d-1_d-2_d-1,
+  .cf_footer_d-1_d-1_d-2_d-2 {
+    max-width: none;
+    width: auto;
+    padding-right: 0;
+  }
+  .cf_footer_d-1_d-1_d-2 div a:first-of-type {
+    margin-top: 20px; /*29px*/
+  }
+  /* == Contenedor de enlaces de Síguenos e Idioma == */
+  .cf_footer_d-1_d-1_d-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    max-width: 360px;
+    margin: 20px auto 0;
+  }
+  /* == Contenedor adaptable (Contenedor de párrafo y enlaces de Síguenos) == */
+  .cf_footer_d-1_d-1_d-3_d-flex-1 {
+    max-width: none;
+    width: auto;
+  }
+  /* == Contenedor adaptable (Botón Idioma y contenedor de enlaces de idiomas (Menú 3)) == */
+  .cf_footer_d-1_d-1_d-3_d-flex-2 {
+    max-width: 112px;
+    margin-top: 0;
+    padding-top: 50px;
+  }
+  /* == Contenedor de enlaces de Síguenos == */
+  .cf_footer_d-1_d-1_d-3_d-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+  }
+  /* == Enlaces de iconos Telegram, Facebook, Youtube y LinkedIn == */
+  .cf_footer_d-1_d-1_d-3_d-1_a-1,
+  .cf_footer_d-1_d-1_d-3_d-1_a-2,
+  .cf_footer_d-1_d-1_d-3_d-1_a-3,
+  .cf_footer_d-1_d-1_d-3_d-1_a-4 {
+    width: 36px;
+    height: 36px;
+  }
 }
 /* == Resolución de ancho mínimo de 720px =================== */
 @media (min-width: 720px)
@@ -457,6 +909,62 @@ header {
   }
   /* == Contenedor del menú 1 (versión móvil - enlaces generales) == */
   .cf_header_d-1_d-1 {
+    display: none;
+  }
+}
+/* == Resolución de ancho máximo de 420px ================== */
+@media (max-width: 420px)
+{
+  /* == Párrafo Explora cursos de running == */
+  .cf_footer_d-1_d-1_d-1 p {
+    font-size: 0.875em;
+  }
+  /* == Contenedor Carreras == */
+  .cf_footer_d-1_d-1_d-2_d-1 {
+    padding-right: 12px;
+  }
+  /* == Parrafos Carreras y Acerca de == */
+  .cf_footer_d-1_d-1_d-2 div p {
+    font-size: 1em;
+  }
+  /* == Enlaces de Carreras y Acerca de == */
+  .cf_footer_d-1_d-1_d-2 div a {
+    font-size: 0.875em;
+  }
+  /* == == Párrafo Síguenos == */
+  .cf_footer_d-1_d-1_d-3_p-1 {
+    font-size: 1em;
+  }
+  /* == Enlaces de iconos Telegram, Facebook, Youtube y LinkedIn == */
+  .cf_footer_d-1_d-1_d-3_d-1_a-1,
+  .cf_footer_d-1_d-1_d-3_d-1_a-2,
+  .cf_footer_d-1_d-1_d-3_d-1_a-3,
+  .cf_footer_d-1_d-1_d-3_d-1_a-4 {
+    width: 28px;
+    height: 28px;
+  }
+  /* == Contenedor adaptable (Botón Idioma y contenedor de enlaces de idiomas (Menú 3)) == */
+  .cf_footer_d-1_d-1_d-3_d-flex-2 {
+    padding-top: 38px;
+  }
+  /* == Párrafo Idioma == */
+  .cf_footer_d-1_d-1_d-3_d-1_button-1 p {
+    font-size: 0.875em;
+  }
+  /* == Enlace de idioma == */
+  .cf_footer_d-1_d-1_d-3_d-2 a {
+    font-size: 0.875em;
+  }
+}
+/* == Resolución de ancho máximo de 270px ================== */
+@media (max-width: 270px)
+{
+  /* == Botón Idioma == */
+  .cf_footer_d-1_d-1_d-3_d-1_button-1 {
+    margin-left: 30px;
+  }
+  /* == Párrafo Idioma == */
+  .cf_footer_d-1_d-1_d-3_d-1_button-1 p {
     display: none;
   }
 }

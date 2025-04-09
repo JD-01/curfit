@@ -70,7 +70,7 @@ body, button {
   border-radius: 6px;
   border: solid 1px rgba(255, 255, 255, 0.12);
   background-image: linear-gradient(#111, #1D1D1D);
-  box-shadow: 4px 4px 7px -2px #111; /*#1D1D1D*/
+  box-shadow: 4px 4px 7px -2px #111;
 }
 /* == Contenedor del menú 2 (versión desktop - enlaces de cursos) - Estado 1 == */
 .cf_g_menu-t-1_e-1 {
@@ -89,6 +89,7 @@ body, button {
   text-decoration: none;
 }
 .cf_g_menu-t-1 a:last-child {
+  /*background-color: red;*/
   padding-bottom: 12px;
 }
 .cf_g_menu-t-1 a:hover {
@@ -127,6 +128,7 @@ index : Contenedor del header, textos de presentación y botón Elije tu Curso
 }
 /* == Enlace tipo 2 == */
 .cf_g_header_a-t-2 {
+  /*font-size: 1em;*/
   color: rgba(255, 255, 255, 0.75);
   text-decoration: none;
 }
@@ -145,7 +147,6 @@ header {
   -webkit-backdrop-filter: blur(43.8px);
   backdrop-filter: blur(43.8px);
 }
-
 /* == Contenedor de elementos del header == */
 .cf_header_d-1 {
   display: flex;
@@ -255,7 +256,6 @@ header {
   top: 0;
   left: 6px;
 }
-
 /* == Contenedor del menú 1 (versión móvil - enlaces generales) == */
 .cf_header_d-1_d-1 {
   position: absolute;
@@ -355,9 +355,6 @@ header {
 }
 /* == Botón flecha abajo-arriba == */
 .cf_header_d-1_nav-1_d-1_button-1 {
-  position: relative;
-  width: 17px;
-  height: 17px;
   border: none;
   background-color: transparent;
 }
@@ -366,36 +363,6 @@ header {
 }
 .cf_header_d-1_nav-1_d-1_button-1:active hr {
   background-color: #EC3E28;
-}
-/* == Botón de flecha abajo-arriba - Estado 1 == */
-.cf_header_d-1_nav-1_d-1_button-1_e-1 {
-  -webkit-transform: rotate(-180deg); -moz-transform: rotate(-180deg); transform: rotate(-180deg);
-  transition: 0.1s ease;
-}
-/* == Botón de flecha abajo-arriba - Estado 2 == */
-.cf_header_d-1_nav-1_d-1_button-1_e-2 {
-  -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); transform: rotate(0deg);
-  transition: 0.1s ease;
-}
-/* == Flecha abajo-arriba == */
-.cf_header_d-1_nav-1_d-1_button-1 hr {
-  display: block;
-  position: absolute;
-  top: 2px;
-  /*top: -1px;*/
-  width: 2px;
-  height: 12px;
-  border-radius: 2px;
-  border: none;
-  background-color: #FFF;
-}
-.cf_header_d-1_nav-1_d-1_button-1 .hr-1 {
-  left: 4px;
-  -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); transform: rotate(-45deg);
-}
-.cf_header_d-1_nav-1_d-1_button-1 .hr-2 {
-  right: 4px;
-  -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg);
 }
 /* == Contenedor del menú 2 (versión desktop - enlaces de cursos) == */
 .cf_header_d-1_nav-1_d-1_d-2 {
@@ -470,6 +437,7 @@ header {
   content: url("../recursos/iconos/icono-carrito_t-1_e-2.png");
 }
 .cf_header_d-1_nav-2 a:active .img-1 {
+  /*background-color: #EC3E28;*/
   content: url("../recursos/iconos/icono-carrito_t-1_e-3.png");
 }
 /* == Enlace Mi cuenta == */
@@ -585,7 +553,6 @@ footer {
   max-width: 190px;
   width: 100%;
 }
-/* == Contenedor adaptable (Contenedor de párrafo y enlaces de Síguenos) == */
 /* == == Párrafo Síguenos == */
 .cf_footer_d-1_d-1_d-3_p-1 {
   font-size: 1.25em;
@@ -702,6 +669,7 @@ footer {
 }
 /* == Párrafo Idioma == */
 .cf_footer_d-1_d-1_d-3_d-1_button-1 p {
+  /*margin-left: 6px;*/
   font-size: 1.25em;
   color: rgba(255, 244, 244, 0.75);
   overflow: hidden;
@@ -726,7 +694,7 @@ footer {
   border-radius: 6px;
   border: solid 1px rgba(255, 255, 255, 0.12);
   background-image: linear-gradient(#111, #1D1D1D);
-  box-shadow: 4px 4px 7px -2px #111;
+  box-shadow: 4px 4px 7px -2px #111; /*#1D1D1D*/
 }
 /* == Contenedor del menú 2 (versión desktop - enlaces de cursos) - Estado 1 == */
 .cf_footer_d-1_d-1_d-3_d-2_e-1 {
@@ -749,6 +717,7 @@ footer {
   text-overflow: ellipsis;
 }
 .cf_footer_d-1_d-1_d-3_d-2 a:last-child {
+  /*background-color: red;*/
   padding-bottom: 12px;
 }
 .cf_footer_d-1_d-1_d-3_d-2 a:hover {
@@ -757,6 +726,58 @@ footer {
 }
 .cf_footer_d-1_d-1_d-3_d-2 a:active {
   color: #EC3E28;
+}
+/* == Contenedor de elementos del footer (Inferior) == */
+.cf_footer_d-2 {
+  display: flex;
+  align-items: center;
+  min-height: 77px;
+  padding: 24px 12px;
+  border-top: solid 1px rgba(255, 255, 255, 0.18);
+}
+/* == Contenedor de parrafo Todos los derechos reservados, parrafo de enlaces Política de Privacidad y Términos y Condiciones == */
+.cf_footer_d-2_d-1 {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+  /*gap: 16px;*/
+  gap: 22px 18px;
+  /*flex-wrap: wrap;*/
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  /*background-color:blueviolet;*/
+}
+/* == Parrafos Todos los derechos reservados y de enlaces == */
+/* == Enlaces Política de Privacidad y Términos y Condiciones == */
+.cf_footer_d-2_d-1 p, 
+.cf_footer_d-2_d-1 p a {
+  color: rgba(255, 244, 244, 0.75);
+}
+/* == Parrafos Todos los derechos reservados y de enlaces == */
+.cf_footer_d-2_d-1 p {
+  text-align: center;
+}
+/* == Enlaces Política de Privacidad y Términos y Condiciones == */
+.cf_footer_d-2_d-1 p a {
+  text-decoration: none;
+}
+.cf_footer_d-2_d-1 p a:hover {
+  text-decoration: underline #F16F5E dotted 2px;
+  text-underline-offset: 4px;
+}
+.cf_footer_d-2_d-1 p a:active {
+  color: #EC3E28;
+  text-decoration: none;
+}
+/* == Span CurFit == */
+.cf_footer_d-2_d-1 p .span-1 {
+  font-size: 1.125em;
+}
+/* == Span separador de enlaces Política de Privacidad y Términos y Condiciones == */
+.cf_footer_d-2_d-1 p .span-2 {
+  padding: 0 6px;
+  text-align: center;
 }
 
 /* ========================================================== */
@@ -768,6 +789,7 @@ footer {
   /* == Párrafo Explora cursos de running == */
   .cf_footer_d-1_d-1_d-1 p {
     font-size: 1em;
+    /*line-height: 1.4em;*/
   }
   /* == Enlaces de Carreras y Acerca de == */
   .cf_footer_d-1_d-1_d-2 div a {
@@ -783,12 +805,12 @@ footer {
     font-size: 1em;
   }
 }
-/* == Resolución de ancho máximo de 1080px ================== */
+/* == Resolución de ancho máximo de 980px =================== */
 @media (max-width: 980px)
 {
   /* == Contenedor de elementos del footer (Superior) == */
   .cf_footer_d-1 {
-    padding: 20px 12px 60px;
+    padding: 40px 12px 60px;
   }
   /* == Contenedor de enlace imagen-texto CurFit y párrafo Explora cursos de running ..., enlaces de Carreras y Acerca de, enlace Síguenos y botón Idioma == */
   .cf_footer_d-1_d-1 {
@@ -807,13 +829,11 @@ footer {
   .cf_footer_d-1_d-1_d-1 p {
     max-width: none;
     width: auto;
-    padding: 0 12px;
     text-align: center;
   }
   /* == Contenedor adaptable (Contenedor Carreras, Acerca de y contenedor de Síguenos e Idioma) == */
   .cf_footer_d-1_d-1_d-flex-1 {
     margin: 30px auto 0;
-    padding: 0 12px;
   }
 }
 /* == Resolución de ancho máximo de 870px =================== */
@@ -860,7 +880,7 @@ footer {
     padding-right: 0;
   }
   .cf_footer_d-1_d-1_d-2 div a:first-of-type {
-    margin-top: 20px; /*29px*/
+    margin-top: 20px;
   }
   /* == Contenedor de enlaces de Síguenos e Idioma == */
   .cf_footer_d-1_d-1_d-3 {
@@ -894,6 +914,11 @@ footer {
   .cf_footer_d-1_d-1_d-3_d-1_a-4 {
     width: 36px;
     height: 36px;
+  }
+  /* == Contenedor de parrafo Todos los derechos reservados, parrafo de enlaces Política de Privacidad y Términos y Condiciones == */
+  .cf_footer_d-2_d-1 {
+    flex-direction: column;
+    align-items: center;
   }
 }
 /* == Resolución de ancho mínimo de 720px =================== */
@@ -949,11 +974,20 @@ footer {
   }
   /* == Párrafo Idioma == */
   .cf_footer_d-1_d-1_d-3_d-1_button-1 p {
+    /*padding-top:;*/
     font-size: 0.875em;
   }
   /* == Enlace de idioma == */
   .cf_footer_d-1_d-1_d-3_d-2 a {
     font-size: 0.875em;
+  }
+  /* == Parrafos Todos los derechos reservados y de enlaces == */
+  .cf_footer_d-2_d-1 p {
+    font-size: 0.875em;
+  }
+  /* == Span CurFit == */
+  .cf_footer_d-2_d-1 p .span-1 {
+    font-size: 1em;
   }
 }
 /* == Resolución de ancho máximo de 270px ================== */

@@ -9,12 +9,34 @@
 /* == Propiedades Comunes =================================== */
 
 .archivo-black,
-.archivo-black-italic {
-  /*font-stretch: normal;*/
+.archivo-black-italic,
+.oswald-extra-light,
+.oswald-light,
+.oswald-regular,
+.oswald-medium,
+.oswald-semi-bold,
+.oswald-bold,
+.roboto-thin,
+.roboto-thin-italic,
+.roboto-extra-light,
+.roboto-extra-light-italic,
+.roboto-light,
+.roboto-light-italic,
+.roboto-regular,
+.roboto-regular-italic,
+.roboto-medium,
+.roboto-medium-italic,
+.roboto-semi-bold,
+.roboto-semi-bold-italic,
+.roboto-bold,
+.roboto-bold-italic,
+.roboto-extra-bold,
+.roboto-extra-bold-italic,
+.roboto-black,
+.roboto-black-italic {
   font-variant: normal;
   font-size: 1em;
   line-height: normal;
-  /*font-size: 0.875em;*/
 }
 
 /* ========================================================== */

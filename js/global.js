@@ -54,13 +54,13 @@ document.addEventListener ( 'DOMContentLoaded', ( ) =>
     {
       if ( ! cf_vMenu2.vVisible ) {
         cf_vMenu2.vVisible = true;
-        cf_vBotonMenu2.className  = 'cf_header_d-1_nav-1_d-1_button-1 cf_header_d-1_nav-1_d-1_button-1_e-1';
+        cf_vBotonMenu2.className  = 'cf_g_flecha-t-1 cf_header_d-1_nav-1_d-1_button-1 cf_g_flecha-t-1_e-1';
         //
         cf_vMenu2.className  = 'cf_header_d-1_nav-1_d-1_d-2 cf_header_d-1_nav-1_d-1_d-2_e-2';
       }
       else {
         cf_vMenu2.vVisible = false;
-        cf_vBotonMenu2.className  = 'cf_header_d-1_nav-1_d-1_button-1 cf_header_d-1_nav-1_d-1_button-1_e-2';
+        cf_vBotonMenu2.className  = 'cf_g_flecha-t-1 cf_header_d-1_nav-1_d-1_button-1 cf_g_flecha-t-1_e-2';
         //
         cf_vMenu2.className  = 'cf_header_d-1_nav-1_d-1_d-2 cf_header_d-1_nav-1_d-1_d-2_e-1';
       }

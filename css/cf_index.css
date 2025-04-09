@@ -71,8 +71,113 @@
 }
 
 /* ========================================================== */
+/* == Contenedor Despierta tu Potencial ===================== */
+
+.cf_main_d-1 {
+  padding: 80px 12px;
+  background-color: rgba(245, 245, 245, 1);
+}
+/* == Contenedor 1 de párrafo Despierta tu Potencial, iconos y parrafos de Aprende de los mejores, ... == */
+.cf_main_d-1_d-1 {
+  max-width: 1230px;
+  width: 100%;
+  margin: auto;
+  padding: 80px 12px;
+  border-radius: 14px;
+  border: solid 2px rgba(0, 0, 0, 0.6);
+}
+/* == Contenedor 2 de párrafo Despierta tu Potencial, iconos y parrafos de Aprende de los mejores, ... == */
+.cf_main_d-1_d-1_d-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+}
+/* == Párrafo Despierta tu Potencial == */
+.cf_main_d-1_d-1_d-1_d-1 p {
+  font-size: 3em;
+  color: #000;
+  line-height: 1.2em;
+}
+/* == Contenedor de iconos y párrafos de Aprende de los Mejores, ... == */
+.cf_main_d-1_d-1_d-1_d-2 {
+  max-width: 690px;
+  width: 100%;
+}
+/* == Contenedor de icono y párrafos de Aprende de los Mejores, ... (Tipo 1) == */
+.cf_main_d-1_d-1_d-1_d-2 .d-t-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 56px;
+}
+.cf_main_d-1_d-1_d-1_d-2 .d-t-1:first-of-type {
+  margin-top: 0;
+}
+/* == Contenedor de icono == */
+.cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-1 {
+  min-width: 60px;
+  width: 60px;  
+  min-height: 60px;
+  height: 60px;
+  padding-top: 17px;
+  border-radius: 30px;
+  background-color: #FFF;
+}
+/* == Icono == */
+.cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-1 img {
+  display: block;
+  margin: auto;
+  height: 26px;
+  font-size: 0.75em;
+  color: #000;
+}
+.cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-1 .img-1 {
+  width: 34px;
+}
+/* == Contenedor de párrafos == */
+.cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2 {
+  max-width: 600px;
+  width: 100%;
+}
+/* == Parrafo beneficio == */
+.cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2_p-1 {
+  font-size: 1.5em;
+  color: #000;
+}
+/* ==  Parrafo beneficio - descripción == */
+.cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2_p-2 {
+  margin-top: 14px;
+  font-size: 1.25em;
+  color: #535353;
+}
+
+/* ========================================================== */
 /* == Media Queries ========================================= */
 
+/* == Resolución de ancho máximo de 980px =================== */
+@media (max-width: 980px)
+{
+  /* == Contenedor Despierta tu Potencial == */
+  .cf_main_d-1 {
+    padding: 60px 12px;
+  }
+  /* == Contenedor 2 de párrafo Despierta tu Potencial, iconos y parrafos de Aprende de los mejores, ... == */
+  .cf_main_d-1_d-1_d-1 {
+    flex-direction: column;
+    gap: 50px;
+  }  
+  /* == Párrafo Despierta tu Potencial == */
+  .cf_main_d-1_d-1_d-1_d-1 p {
+    text-align: center;
+  }
+  /* == Contenedor de iconos y párrafos de Aprende de los Mejores, ... == */
+  .cf_main_d-1_d-1_d-1_d-2 {
+    margin: auto;
+  }
+}
 /* == Resolución de ancho mínimo de 540px =================== */
 @media (max-width: 540px)
 {
@@ -86,6 +191,29 @@
   .cf_contenedor-header_d-1_p-3 {
     font-size: 1em;
   }
+  /* == Contenedor 1 de párrafo Despierta tu Potencial, iconos y parrafos de Aprende de los mejores, ... == */
+  .cf_main_d-1_d-1 {
+    padding: 0;
+    border: none;
+  }
+  /* == Contenedor de icono y párrafos de Aprende de los Mejores, ... (Tipo 1) == */
+  .cf_main_d-1_d-1_d-1_d-2 .d-t-1 {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;    
+  }
+  /* == Contenedor de icono == */
+  .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-1 {
+    margin: auto;
+  }
+  /* == Parrafo beneficio == */
+  .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2_p-1 {
+    text-align: center;
+  }
+  /* ==  Parrafo beneficio - descripción == */
+  .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2_p-2 {
+    text-align: center;
+  }
 }
 /* == Resolución de ancho mínimo de 480px =================== */
 @media (max-width: 480px)
@@ -93,6 +221,22 @@
   /* == Parrafo Eleva tu Experiencia == */
   .cf_contenedor-header_d-1_p-1 {
     font-size: 4em;
+  }
+}
+/* == Resolución de ancho mínimo de 430px =================== */
+@media (max-width: 430px)
+{
+  /* == Párrafo Despierta tu Potencial == */
+  .cf_main_d-1_d-1_d-1_d-1 p {
+    font-size: 2.25em;
+  }
+  /* == Parrafo beneficio == */
+  .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2_p-1 {
+    font-size: 1.25em;
+  }
+  /* ==  Parrafo beneficio - descripción == */
+  .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2_p-2 {
+    font-size: 1em;
   }
 }
 /* == Resolución de ancho mínimo de 360px =================== */

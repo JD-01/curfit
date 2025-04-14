@@ -7,6 +7,18 @@
   background-image: linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38)), url("../recursos/imagenes/cf_fondo-1_t-1.png");
 }
 
+/* ========================================================== */
+/* == Propiedades Globales ================================== */
+
+.cf_g_main_a-t-1:hover {
+  background-color: #3F9521;
+  background-image: linear-gradient(#3F9521, #46A525);
+}
+.cf_g_main_a-t-1:active {
+  background-color: #46A525;
+  background-image: none;
+}
+
 /* ======================================================================================= */
 /* == Contenedor de textos Eleva tu ..., Explora cursos de ..., y botón Escoje tu Curso == */
 
@@ -53,7 +65,7 @@
   width: 100%;
   min-height: 50px;
   margin-top: 51px;
-  padding: 0 6px;  
+  padding: 0 6px;
   border-radius: 5px;
   background-color: #3F9521;
   font-size: 1.125em;
@@ -61,21 +73,13 @@
   text-align: center;
   text-decoration: none;
 }
-.cf_contenedor-header_d-1_a-1:hover {
-  background-color: #3F9521;
-  background-image: linear-gradient(#3F9521, #46A525);
-}
-.cf_contenedor-header_d-1_a-1:active {
-  background-color: #46A525;
-  background-image: none;
-}
 
 /* ========================================================== */
 /* == Contenedor Despierta tu Potencial ===================== */
 
 .cf_main_d-1 {
   padding: 80px 12px;
-  background-color: rgba(245, 245, 245, 1);
+  background-color: #F5F5F5;
 }
 /* == Contenedor 1 de párrafo Despierta tu Potencial, iconos y parrafos de Aprende de los mejores, ... == */
 .cf_main_d-1_d-1 {
@@ -119,7 +123,7 @@
 /* == Contenedor de icono == */
 .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-1 {
   min-width: 60px;
-  width: 60px;  
+  width: 60px;
   min-height: 60px;
   height: 60px;
   padding-top: 17px;
@@ -155,6 +159,144 @@
 }
 
 /* ========================================================== */
+/* == Contenedor Elige tu Curso ============================= */
+
+.cf_main_d-2 {
+  padding: 100px 12px;
+  background-color: #1A1919
+}
+/* == Contenedor de párrafo Elige tu Curso y de contenedor de cursos ==*/
+.cf_main_d-2_d-1 {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+/* == Párrafo Elige tu Curso ==*/
+.cf_main_d-2_d-1_p-1 {
+  font-size: 3em;
+  color: #FFF;
+  line-height: 1.2em;
+  text-align: center;
+}
+/* == Contenedor de cursos == */
+.cf_main_d-2_d-1_d-1 {
+  display: flex;
+  justify-content: center;
+  gap: 36px 24px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+/* == Contenedor de curso (Tipo 1) == */
+.cf_main_d-2_d-1_d-1_d-t-1 {
+  position: relative;
+  max-width: 302px;
+  width: 100%;
+  min-height: 384px;
+  height: 100%;
+}
+/* == Imagen del curso == */
+.cf_main_d-2_d-1_d-1_d-t-1 img {
+  display: block;
+  max-width: 302px;
+  min-height: 384px;
+  border-radius: 12px;
+  font-size: 1.25em;
+  color: #FFF;
+}
+/* == Contenedor de nombre del curso, precios y botón comprar == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 314px;
+  padding: 0 24px 24px;
+  border-radius: 0 0 10px 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.86) 47%, #000 100%);
+}
+/* == Enlace nombre del curso == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 67px;
+  text-decoration: none;
+}
+/* == Párrafo de enlace nombre del curso == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 p {
+  font-size: 1.5em;
+  color: #FFF;
+  line-height: 1.4em;
+  text-align: center;
+}
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1:hover p {
+  color: #F16F5E;
+}
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1:active p {
+  color: #EC3E28;
+}
+/* == Número de cursos == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 p span {
+  color: #EC3E28;
+}
+/* == Contenedor de párrafos precio anterior y precio actual == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 3px;
+  min-height: 49px;
+  margin-top: 24px;
+  border-top: solid 1px rgba(255, 255, 255, 0.17);
+}
+/* == Contenedor de párrafo precio anterior == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 {
+  display: block;
+  position: relative;
+  margin: auto;
+}
+/* == Barra horizontal de tachado == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 hr {
+  display: block;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  height: 1px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+/* == Párrafo precio anterior == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 p {
+  font-size: 0.8125em;
+  color: #FFF;
+  text-align: center;
+}
+/* == Párrafo precio actual == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_p-2 {
+  font-size: 1.25em;
+  color: #FFF;
+  text-align: center;
+}
+/* == Enlace Comprar == */
+.cf_main_d-2_d-1_d-1_d-t-1_d-1_a-2 {
+  display: block;
+  max-width: 132px;
+  width: 100%;
+  min-height: 35px;
+  margin: 24px auto 0;
+  padding: 11px 6px 0;
+  border-radius: 5px;
+  font-size: 0.75em;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  background-color: #3F9521;
+}
+
+/* ========================================================== */
 /* == Media Queries ========================================= */
 
 /* == Resolución de ancho máximo de 980px =================== */
@@ -168,7 +310,7 @@
   .cf_main_d-1_d-1_d-1 {
     flex-direction: column;
     gap: 50px;
-  }  
+  }
   /* == Párrafo Despierta tu Potencial == */
   .cf_main_d-1_d-1_d-1_d-1 p {
     text-align: center;
@@ -178,12 +320,75 @@
     margin: auto;
   }
 }
+/* == Resolución de ancho máximo de 670px =================== */
+@media (max-width: 670px) /*652px*/
+{
+  /* == Contenedor Elige tu Curso == */
+  .cf_main_d-2 {
+    padding: 50px 12px;
+  }
+  /* == Párrafo Elige tu Curso ==*/
+  .cf_main_d-2_d-1_p-1 {
+    font-size: 2.25em;
+  }
+  /* == Contenedor de cursos == */
+  .cf_main_d-2_d-1_d-1 {
+    gap: 24px 12px;
+    margin-top: 40px;
+  }
+  /* == Contenedor de curso (Tipo 1) == */
+  .cf_main_d-2_d-1_d-1_d-t-1 {
+    max-width: 180px;
+    min-height: 228px;
+    /* background-color: red; */
+  }
+  /* == Imagen del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1 img {
+    max-width: 180px;
+    min-height: 228px;
+  }
+  /* == Contenedor de nombre del curso, precios y botón comprar == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1 {
+    min-height: 160px;
+    padding: 0 12px 12px;
+  }
+  /* == Enlace nombre del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 {
+    font-size: 1em;
+  }
+  /* == Contenedor de párrafos precio anterior y precio actual == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1 {
+    gap: 1px;
+    min-height: 34px;
+    margin-top: 12px;
+  }
+  /* == Barra horizontal de tachado == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 hr {
+    top: 7px;
+  }
+  /* == Párrafo precio anterior == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 p {
+    font-size: 0.625em;
+  }
+  /* == Párrafo precio actual == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_p-2 {
+    font-size: 0.875em;
+  }
+  /* == Enlace Comprar == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-2 {
+    max-width: 74px;
+    min-height: 25px;
+    margin: 12px auto 0;
+    padding: 6px 6px 0;
+    font-size: 0.6875em;
+  }
+}
 /* == Resolución de ancho mínimo de 540px =================== */
 @media (max-width: 540px)
 {
   /* == Parrafo Eleva tu Experiencia == */
   .cf_contenedor-header_d-1_p-1 {
-    font-size: 5em;    
+    font-size: 5em;
   }
   /* == Parrafo Explora cursos de running, ..., Texto: ¡Comienza tu viaje hacia ... == */
   /* == Parrafo ¡Comienza tu viaje hacia el bienestar con nosotros! == */
@@ -200,7 +405,7 @@
   .cf_main_d-1_d-1_d-1_d-2 .d-t-1 {
     flex-direction: column;
     gap: 20px;
-    margin-top: 40px;    
+    margin-top: 40px;
   }
   /* == Contenedor de icono == */
   .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-1 {

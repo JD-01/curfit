@@ -27,6 +27,7 @@ body, button {
 .cf_g_a-curfit:hover {
   color: #F16F5E;
 }
+
 /* == Flecha abajo-arriba == */
 .cf_g_flecha-t-1 {
   position: relative;
@@ -50,6 +51,7 @@ body, button {
   display: block;
   position: absolute;
   top: 2px;
+  /*top: -1px;*/
   width: 2px;
   height: 12px;
   border-radius: 2px;
@@ -64,7 +66,6 @@ body, button {
   right: 4px;
   -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg);
 }
-
 /* == Menú (Tipo 1. Enlaces de cursos e idiomas) == */
 .cf_g_menu-t-1 {
   border-radius: 6px;
@@ -89,7 +90,6 @@ body, button {
   text-decoration: none;
 }
 .cf_g_menu-t-1 a:last-child {
-  /*background-color: red;*/
   padding-bottom: 12px;
 }
 .cf_g_menu-t-1 a:hover {
@@ -147,6 +147,7 @@ header {
   -webkit-backdrop-filter: blur(43.8px);
   backdrop-filter: blur(43.8px);
 }
+
 /* == Contenedor de elementos del header == */
 .cf_header_d-1 {
   display: flex;
@@ -669,7 +670,6 @@ footer {
 }
 /* == Párrafo Idioma == */
 .cf_footer_d-1_d-1_d-3_d-1_button-1 p {
-  /*margin-left: 6px;*/
   font-size: 1.25em;
   color: rgba(255, 244, 244, 0.75);
   overflow: hidden;
@@ -694,7 +694,7 @@ footer {
   border-radius: 6px;
   border: solid 1px rgba(255, 255, 255, 0.12);
   background-image: linear-gradient(#111, #1D1D1D);
-  box-shadow: 4px 4px 7px -2px #111; /*#1D1D1D*/
+  box-shadow: 4px 4px 7px -2px #111;
 }
 /* == Contenedor del menú 2 (versión desktop - enlaces de cursos) - Estado 1 == */
 .cf_footer_d-1_d-1_d-3_d-2_e-1 {
@@ -717,7 +717,6 @@ footer {
   text-overflow: ellipsis;
 }
 .cf_footer_d-1_d-1_d-3_d-2 a:last-child {
-  /*background-color: red;*/
   padding-bottom: 12px;
 }
 .cf_footer_d-1_d-1_d-3_d-2 a:hover {
@@ -739,14 +738,10 @@ footer {
 .cf_footer_d-2_d-1 {
   display: flex;
   justify-content: space-between;
-  /*align-items: center;*/
-  /*gap: 16px;*/
   gap: 22px 18px;
-  /*flex-wrap: wrap;*/
   max-width: 1280px;
   width: 100%;
   margin: auto;
-  /*background-color:blueviolet;*/
 }
 /* == Parrafos Todos los derechos reservados y de enlaces == */
 /* == Enlaces Política de Privacidad y Términos y Condiciones == */
@@ -789,7 +784,6 @@ footer {
   /* == Párrafo Explora cursos de running == */
   .cf_footer_d-1_d-1_d-1 p {
     font-size: 1em;
-    /*line-height: 1.4em;*/
   }
   /* == Enlaces de Carreras y Acerca de == */
   .cf_footer_d-1_d-1_d-2 div a {

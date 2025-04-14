@@ -34,6 +34,7 @@
   background-position: center 78px;
   background-repeat: no-repeat;
   background-size: auto;
+  /*background-color: red;*/
 }
 /* == Parrafo Eleva tu Experiencia == */
 .cf_contenedor-header_d-1_p-1 {
@@ -104,6 +105,7 @@
   font-size: 3em;
   color: #000;
   line-height: 1.2em;
+  /* background-color: #00B386; */
 }
 /* == Contenedor de iconos y párrafos de Aprende de los Mejores, ... == */
 .cf_main_d-1_d-1_d-1_d-2 {
@@ -214,6 +216,7 @@
   min-height: 314px;
   padding: 0 24px 24px;
   border-radius: 0 0 10px 10px;
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.68) 47%, #000000 100%); */
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.86) 47%, #000 100%);
 }
 /* == Enlace nombre del curso == */
@@ -221,8 +224,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* min-height: 45px; */
   min-height: 67px;
   text-decoration: none;
+  /* background-color: red; */
 }
 /* == Párrafo de enlace nombre del curso == */
 .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 p {
@@ -340,7 +345,6 @@
   .cf_main_d-2_d-1_d-1_d-t-1 {
     max-width: 180px;
     min-height: 228px;
-    /* background-color: red; */
   }
   /* == Imagen del curso == */
   .cf_main_d-2_d-1_d-1_d-t-1 img {
@@ -352,8 +356,8 @@
     min-height: 160px;
     padding: 0 12px 12px;
   }
-  /* == Enlace nombre del curso == */
-  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 {
+  /* == Párrafo de enlace nombre del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 p {
     font-size: 1em;
   }
   /* == Contenedor de párrafos precio anterior y precio actual == */

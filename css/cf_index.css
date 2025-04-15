@@ -34,7 +34,6 @@
   background-position: center 78px;
   background-repeat: no-repeat;
   background-size: auto;
-  /*background-color: red;*/
 }
 /* == Parrafo Eleva tu Experiencia == */
 .cf_contenedor-header_d-1_p-1 {
@@ -145,7 +144,7 @@
 }
 /* == Contenedor de párrafos == */
 .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2 {
-  max-width: 600px;
+  max-width: 600px; /*590px*/
   width: 100%;
 }
 /* == Parrafo beneficio == */
@@ -216,7 +215,6 @@
   min-height: 314px;
   padding: 0 24px 24px;
   border-radius: 0 0 10px 10px;
-  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.68) 47%, #000000 100%); */
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.86) 47%, #000 100%);
 }
 /* == Enlace nombre del curso == */
@@ -224,10 +222,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-height: 45px; */
   min-height: 67px;
   text-decoration: none;
-  /* background-color: red; */
 }
 /* == Párrafo de enlace nombre del curso == */
 .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 p {
@@ -260,7 +256,7 @@
 .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 {
   display: block;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
 }
 /* == Barra horizontal de tachado == */
 .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 hr {
@@ -326,7 +322,7 @@
   }
 }
 /* == Resolución de ancho máximo de 670px =================== */
-@media (max-width: 670px) /*652px*/
+@media (max-width: 670px)
 {
   /* == Contenedor Elige tu Curso == */
   .cf_main_d-2 {
@@ -338,7 +334,7 @@
   }
   /* == Contenedor de cursos == */
   .cf_main_d-2_d-1_d-1 {
-    gap: 24px 12px;
+    gap: 18px 12px;
     margin-top: 40px;
   }
   /* == Contenedor de curso (Tipo 1) == */
@@ -353,8 +349,12 @@
   }
   /* == Contenedor de nombre del curso, precios y botón comprar == */
   .cf_main_d-2_d-1_d-1_d-t-1_d-1 {
-    min-height: 160px;
+    min-height: 186px;
     padding: 0 12px 12px;
+  }
+  /* == Enlace nombre del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 {
+    min-height: 44px;
   }
   /* == Párrafo de enlace nombre del curso == */
   .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 p {
@@ -380,7 +380,7 @@
   }
   /* == Enlace Comprar == */
   .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-2 {
-    max-width: 74px;
+    max-width: 84px;
     min-height: 25px;
     margin: 12px auto 0;
     padding: 6px 6px 0;
@@ -446,6 +446,58 @@
   /* ==  Parrafo beneficio - descripción == */
   .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2_p-2 {
     font-size: 1em;
+  }
+  /* == Contenedor de curso (Tipo 1) == */
+  .cf_main_d-2_d-1_d-1_d-t-1 {
+    max-width: 102px;
+    min-height: 129px;
+  }
+  /* == Imagen del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1 img {
+    max-width: 102px;
+    min-height: 129px;
+  }
+  /* == Contenedor de nombre del curso, precios y botón comprar == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1 {
+    min-height: 108px;
+    padding: 0 6px 6px;
+  }
+  /* == Enlace nombre del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 {
+    min-height: 28px;
+  }
+  /* == Párrafo de enlace nombre del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 p {
+    font-size: 0.6875em;
+    line-height: 1.3em;
+  }
+  /* == Contenedor de párrafos precio anterior y precio actual == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1 {
+    gap: 0;
+    min-height: 28px;
+    margin-top: 6px;
+  }
+  /* == Barra horizontal de tachado == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 hr {
+    top: 5px;
+  }
+  /* == Párrafo precio anterior == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 p {
+    font-size: 0.5625em;
+    font-size: 0.5em;
+  }
+  /* == Párrafo precio actual == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_p-2 {
+    font-size: 0.6875em;
+  }
+  /* == Enlace Comprar == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-2 {
+    max-width: 64px;
+    min-height: 20px;
+    margin: 6px auto 0;
+    padding: 5px 3px 0;
+    font-size: 0.625em;
+    font-size: 0.5625em;
   }
 }
 /* == Resolución de ancho mínimo de 360px =================== */

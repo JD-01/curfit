@@ -27,7 +27,6 @@ body, button {
 .cf_g_a-curfit:hover {
   color: #F16F5E;
 }
-
 /* == Flecha abajo-arriba == */
 .cf_g_flecha-t-1 {
   position: relative;
@@ -51,7 +50,6 @@ body, button {
   display: block;
   position: absolute;
   top: 2px;
-  /*top: -1px;*/
   width: 2px;
   height: 12px;
   border-radius: 2px;
@@ -66,6 +64,7 @@ body, button {
   right: 4px;
   -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg);
 }
+
 /* == Menú (Tipo 1. Enlaces de cursos e idiomas) == */
 .cf_g_menu-t-1 {
   border-radius: 6px;
@@ -438,7 +437,6 @@ header {
   content: url("../recursos/iconos/icono-carrito_t-1_e-2.png");
 }
 .cf_header_d-1_nav-2 a:active .img-1 {
-  /*background-color: #EC3E28;*/
   content: url("../recursos/iconos/icono-carrito_t-1_e-3.png");
 }
 /* == Enlace Mi cuenta == */

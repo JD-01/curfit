@@ -104,7 +104,6 @@
   font-size: 3em;
   color: #000;
   line-height: 1.2em;
-  /* background-color: #00B386; */
 }
 /* == Contenedor de iconos y párrafos de Aprende de los Mejores, ... == */
 .cf_main_d-1_d-1_d-1_d-2 {
@@ -144,7 +143,7 @@
 }
 /* == Contenedor de párrafos == */
 .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-2 {
-  max-width: 600px; /*590px*/
+  max-width: 600px;
   width: 100%;
 }
 /* == Parrafo beneficio == */
@@ -449,6 +448,70 @@
   }
   /* == Contenedor de curso (Tipo 1) == */
   .cf_main_d-2_d-1_d-1_d-t-1 {
+    max-width: 142px;
+    min-height: 180px;
+  }
+  /* == Imagen del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1 img {
+    max-width: 142px;
+    min-height: 180px;
+  }
+  /* == Contenedor de nombre del curso, precios y botón comprar == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1 {
+    min-height: 148px;
+    padding: 0 6px 6px;
+  }
+  /* == Enlace nombre del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 {
+    min-height: 28px;
+  }
+  /* == Párrafo de enlace nombre del curso == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 p {
+    font-size: 0.875em;
+  }
+  /* == Contenedor de párrafos precio anterior y precio actual == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1 {
+    min-height: 30px;
+    margin-top: 6px;
+  }
+  /* == Barra horizontal de tachado == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 hr {
+    top: 6px;
+  }
+  /* == Párrafo precio anterior == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 p {
+    font-size: 0.5625em;
+  }
+  /* == Párrafo precio actual == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_p-2 {
+    font-size: 0.8125em;
+  }
+  /* == Enlace Comprar == */
+  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-2 {
+    max-width: 74px;
+    min-height: 23px;
+    margin: 6px auto 0;
+    padding: 5px 3px 0;    
+    font-size: 0.625em;
+  }
+}
+/* == Resolución de ancho mínimo de 360px =================== */
+@media (max-width: 360px)
+{
+  /* == Parrafo Eleva tu Experiencia == */
+  .cf_contenedor-header_d-1_p-1 {
+    font-size: 3em;
+  }
+}
+/* == Resolución de ancho mínimo de 260px =================== */
+@media (max-width: 260px)
+{
+  /* == Parrafo Eleva tu Experiencia == */
+  .cf_contenedor-header_d-1_p-1 {
+    font-size: 2.5em;
+  }
+  /* == Contenedor de curso (Tipo 1) == */
+  .cf_main_d-2_d-1_d-1_d-t-1 {
     max-width: 102px;
     min-height: 129px;
   }
@@ -496,23 +559,6 @@
     min-height: 20px;
     margin: 6px auto 0;
     padding: 5px 3px 0;
-    font-size: 0.625em;
     font-size: 0.5625em;
-  }
-}
-/* == Resolución de ancho mínimo de 360px =================== */
-@media (max-width: 360px)
-{
-  /* == Parrafo Eleva tu Experiencia == */
-  .cf_contenedor-header_d-1_p-1 {
-    font-size: 3em;
-  }
-}
-/* == Resolución de ancho mínimo de 240px =================== */
-@media (max-width: 260px)
-{
-  /* == Parrafo Eleva tu Experiencia == */
-  .cf_contenedor-header_d-1_p-1 {
-    font-size: 2.5em;
   }
 }

@@ -55,6 +55,7 @@
 }
 .cf_contenedor-header_d-1_p-3 {
   margin-top: 6px;
+  /*background-color: blueviolet;*/
 }
 /* == Enlace Elige tu Curso == */
 .cf_contenedor-header_d-1_a-1 {
@@ -321,7 +322,7 @@
   }
 }
 /* == Resolución de ancho máximo de 670px =================== */
-@media (max-width: 670px)
+@media (max-width: 670px) /*652px*/
 {
   /* == Contenedor Elige tu Curso == */
   .cf_main_d-2 {
@@ -448,51 +449,28 @@
   }
   /* == Contenedor de curso (Tipo 1) == */
   .cf_main_d-2_d-1_d-1_d-t-1 {
-    max-width: 142px;
-    min-height: 180px;
+    max-width: 162px;
+    min-height: 205px;
   }
   /* == Imagen del curso == */
   .cf_main_d-2_d-1_d-1_d-t-1 img {
-    max-width: 142px;
-    min-height: 180px;
+    max-width: 162px;
+    min-height: 205px;
   }
   /* == Contenedor de nombre del curso, precios y botón comprar == */
   .cf_main_d-2_d-1_d-1_d-t-1_d-1 {
-    min-height: 148px;
+    min-height: 168px;    
     padding: 0 6px 6px;
-  }
-  /* == Enlace nombre del curso == */
-  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 {
-    min-height: 28px;
-  }
-  /* == Párrafo de enlace nombre del curso == */
-  .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-1 p {
-    font-size: 0.875em;
   }
   /* == Contenedor de párrafos precio anterior y precio actual == */
   .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1 {
-    min-height: 30px;
-    margin-top: 6px;
-  }
-  /* == Barra horizontal de tachado == */
-  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 hr {
-    top: 6px;
-  }
-  /* == Párrafo precio anterior == */
-  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_d-1 p {
-    font-size: 0.5625em;
-  }
-  /* == Párrafo precio actual == */
-  .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1_p-2 {
-    font-size: 0.8125em;
+    gap: 0;
+    min-height: 32px;
+    margin-top: 8px;
   }
   /* == Enlace Comprar == */
   .cf_main_d-2_d-1_d-1_d-t-1_d-1_a-2 {
-    max-width: 74px;
-    min-height: 23px;
-    margin: 6px auto 0;
-    padding: 5px 3px 0;    
-    font-size: 0.625em;
+    margin: 8px auto 0;
   }
 }
 /* == Resolución de ancho mínimo de 360px =================== */
@@ -536,7 +514,6 @@
   }
   /* == Contenedor de párrafos precio anterior y precio actual == */
   .cf_main_d-2_d-1_d-1_d-t-1_d-1_d-1 {
-    gap: 0;
     min-height: 28px;
     margin-top: 6px;
   }

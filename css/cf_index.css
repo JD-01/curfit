@@ -136,7 +136,7 @@
   margin: auto;
   height: 26px;
   font-size: 0.75em;
-  color: #000;
+  color: #1C1C1C;
 }
 .cf_main_d-1_d-1_d-1_d-2 .d-t-1_d-1 .img-1 {
   width: 34px;
@@ -295,6 +295,75 @@
   text-align: center;
   background-color: #3F9521;
 }
+/* ============================================================================================= */
+/* == Contenedor de Qué Esperar, Quienes Somos, Quién Participa, Crecemos y Aprendemos Juntos == */
+.cf_main_d-3 {
+  padding: 90px 12px 0;
+  background-color: #F5F5F5;
+}
+/* ========================================================== */
+/* == Contenedor Qué Esperar ================================ */
+.cf_main_d-3_d-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+/* == Contenedor de párrafos Qué Esperar, descripción y características == */
+.cf_main_d-3_d-1_d-1 {
+  max-width: 640px;
+  width: 100%;
+  padding-top: 46px;
+}
+/* == Párrafo Qué Esperar == */
+.cf_main_d-3_d-1_d-1_p-1 {
+  font-size: 3em;
+  line-height: 1.2em;
+  color: #000;
+}
+/* == Párrafo de descripción == */
+/* == Párrafo de característica == */
+.cf_main_d-3_d-1_d-1_p-2,
+.cf_main_d-3_d-1_d-1_d-t-1 p {
+  font-size: 1.25em;
+  color: #535353;
+}
+/* == Párrafo de descripción == */
+.cf_main_d-3_d-1_d-1_p-2 {
+  margin-top: 32px;
+  line-height: 1.4em;
+}
+/* == Contenedor de caracteristica == */
+.cf_main_d-3_d-1_d-1_d-t-1 {
+  display: flex;
+  gap: 14px;
+  margin-top: 14px;
+}
+.cf_main_d-3_d-1_d-1_d-t-1:first-of-type {
+  margin-top: 48px;
+}
+/* == Viñeta == */
+.cf_main_d-3_d-1_d-1_d-t-1 hr {
+  display: block;
+  min-width: 6px;
+  width: 6px;
+  min-height: 6px;
+  height: 6px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: #535353;
+}
+/* == Imagen Que Esperar == */
+.cf_main_d-3_d-1_d-2 img {
+  display: block;
+  width: 552px;
+  height: 554px;
+  margin: 0 auto;
+  color: #1C1C1C;
+}
 
 /* ========================================================== */
 /* == Media Queries ========================================= */
@@ -318,6 +387,25 @@
   /* == Contenedor de iconos y párrafos de Aprende de los Mejores, ... == */
   .cf_main_d-1_d-1_d-1_d-2 {
     margin: auto;
+  }
+  /* == Párrafo Qué Esperar == */
+  .cf_main_d-3_d-1_d-1_p-1 {
+    font-size: 2.25em;
+  }
+  /* == Contenedor de caracteristica == */
+  .cf_main_d-3_d-1_d-1_d-t-1:first-of-type {
+    margin-top: 36px;
+  }
+  /* == Párrafo de descripción == */
+  /* == Párrafo de característica == */
+  .cf_main_d-3_d-1_d-1_p-2,
+  .cf_main_d-3_d-1_d-1_d-t-1 p {
+    font-size: 1em;
+  }
+  /* == Imagen Que Esperar == */
+  .cf_main_d-3_d-1_d-2 img {
+    width: 352px;
+    height: 354px;
   }
 }
 /* == Resolución de ancho máximo de 670px =================== */
@@ -384,6 +472,28 @@
     margin: 12px auto 0;
     padding: 6px 6px 0;
     font-size: 0.6875em;
+  }
+  /* == Contenedor de Qué Esperar, Quienes Somos, Quién Participa, Crecemos y Aprendemos Juntos == */
+  .cf_main_d-3 {
+    padding-top: 36px;
+  }
+  /* == Contenedor Qué Esperar == */
+  .cf_main_d-3_d-1 {
+    flex-direction: column;
+    gap: 60px;
+  }
+  /* == Contenedor de párrafos Qué Esperar, descripción y características == */
+  .cf_main_d-3_d-1_d-1 {
+    padding-top: 0;
+  }
+  /* == Párrafo de descripción == */
+  .cf_main_d-3_d-1_d-1_p-2 {
+    margin-top: 36px;
+  }
+  /* == Imagen Que Esperar == */
+  .cf_main_d-3_d-1_d-2 img {
+    width: 334px;
+    height: 336px;
   }
 }
 /* == Resolución de ancho mínimo de 540px =================== */
@@ -499,7 +609,7 @@
   }
   /* == Contenedor de nombre del curso, precios y botón comprar == */
   .cf_main_d-2_d-1_d-1_d-t-1_d-1 {
-    min-height: 148px;    
+    min-height: 148px;
     padding: 0 6px 6px;
   }
   /* == Enlace nombre del curso == */
@@ -534,6 +644,11 @@
     margin: 6px auto 0;
     padding: 5px 3px 0;
     font-size: 0.625em;
+  }
+  /* == Imagen Que Esperar == */
+  .cf_main_d-3_d-1_d-2 img {
+    width: 294px;
+    height: 296px;
   }
 }
 /* == Resolución de ancho mínimo de 319px =================== */
@@ -588,6 +703,23 @@
     margin: 6px auto 0;
     padding: 5px 3px 0;
     font-size: 0.5625em;
+  }
+  /* == Contenedor Qué Esperar == */
+  .cf_main_d-3_d-1 {
+    gap: 40px;
+  }
+  /* == Párrafo de descripción == */
+  .cf_main_d-3_d-1_d-1_p-2 {
+    margin-top: 24px;
+  }
+  /* == Contenedor de caracteristica == */
+  .cf_main_d-3_d-1_d-1_d-t-1:first-of-type {
+    margin-top: 24px;
+  }
+  /* == Imagen Que Esperar == */
+  .cf_main_d-3_d-1_d-2 img {
+    width: 214px;
+    height: 216px;
   }
 }
 /* == Resolución de ancho mínimo de 260px =================== */

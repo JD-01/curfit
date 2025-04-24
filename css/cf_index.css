@@ -351,18 +351,65 @@
   width: 6px;
   min-height: 6px;
   height: 6px;
-  margin-top: 8px;
+  margin-top: 9px;
   border-radius: 6px;
   border: none;
   background-color: #535353;
 }
 /* == Imagen Que Esperar == */
-.cf_main_d-3_d-1_d-2 img {
+.cf_main_d-3_d-1_img-1 {
   display: block;
   width: 552px;
   height: 554px;
   margin: 0 auto;
+  border-radius: 0 0 14px 14px;
   color: #1C1C1C;
+}
+/* ========================================================== */
+/* == Contenedor Quiénes Somos ============================== */
+.cf_main_d-3_d-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  width: 100%;
+  margin: 80px auto 0;
+  border-radius: 14px;
+  background-color: #191919;
+}
+/* == Imagen Quiénes Somos == */
+.cf_main_d-3_d-2_img-1 {
+  display: block;
+  width: 650px;
+  height: 770px;
+  border-radius: 14px 0 0 14px;
+  color: #FFF;
+}
+/* == Contenedor de párrafo Quienes Somos y párrafos de descripción == */
+.cf_main_d-3_d-2_d-2 {
+  max-width: 630px;
+  width: 100%;
+  padding-right: 18px;
+}
+/* == Párrafo Quienes Somos == */
+/* == Párrafo de descripción == */
+.cf_main_d-3_d-2_d-2 p {
+  max-width: 510px;
+  width: 100%;
+}
+/* == Párrafo Quienes Somos == */
+.cf_main_d-3_d-2_d-2_p-1 {
+  margin: auto;
+  font-size: 3em;
+  color: #FFF;
+  line-height: 1.2em;
+}
+/* == Párrafo de descripción == */
+.cf_main_d-3_d-2_d-2_p-t-1 {
+  margin: 36px auto 0;
+  font-size: 1.25em;
+  line-height: 1.4em;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 /* ========================================================== */
@@ -394,7 +441,7 @@
   }
   /* == Contenedor de caracteristica == */
   .cf_main_d-3_d-1_d-1_d-t-1:first-of-type {
-    margin-top: 36px;
+    margin-top: 32px;
   }
   /* == Párrafo de descripción == */
   /* == Párrafo de característica == */
@@ -402,10 +449,89 @@
   .cf_main_d-3_d-1_d-1_d-t-1 p {
     font-size: 1em;
   }
+  /* == Viñeta == */
+  .cf_main_d-3_d-1_d-1_d-t-1 hr {
+    margin-top: 6px;
+  }
   /* == Imagen Que Esperar == */
-  .cf_main_d-3_d-1_d-2 img {
-    width: 352px;
+  .cf_main_d-3_d-1_img-1 {
+    width: 354px;
     height: 354px;
+  }
+  /* == Imagen Quiénes Somos == */
+  .cf_main_d-3_d-2_img-1 {
+    width: 490px;
+    height: 582px;
+  }
+  /* == Párrafo Quienes Somos == */
+  .cf_main_d-3_d-2_d-2_p-1 {
+    font-size: 2.25em;
+  }
+  /* == Párrafo de descripción == */
+  .cf_main_d-3_d-2_d-2_p-t-1 {
+    margin-top: 24px;
+    font-size: 1em;
+  }
+}
+/* == Resolución de ancho máximo de 800px =================== */
+@media (max-width: 800px)
+{
+  /* == Imagen Quiénes Somos == */
+  .cf_main_d-3_d-2_img-1 {
+    width: 392px;
+    height: 464px;
+  }
+  /* == Párrafo de descripción == */
+  .cf_main_d-3_d-2_d-2_p-t-1 {
+    margin-top: 12px;
+  }
+}
+/* == Resolución de ancho máximo de 720px =================== */
+@media (max-width: 720px)
+{
+  /* == Contenedor de Qué Esperar, Quienes Somos, Quién Participa, Crecemos y Aprendemos Juntos == */
+  .cf_main_d-3 {
+    padding-top: 36px;
+  }
+  /* == Contenedor Qué Esperar == */
+  .cf_main_d-3_d-1 {
+    flex-direction: column;
+    gap: 48px;
+  }
+  /* == Contenedor de párrafos Qué Esperar, descripción y características == */
+  .cf_main_d-3_d-1_d-1 {
+    max-width: none;
+    padding-top: 0;
+  }
+  /* == Imagen Que Esperar == */
+  .cf_main_d-3_d-1_img-1 {
+    width: 351px;
+    height: 351px;
+  }
+  /* == Contenedor Quiénes Somos == */
+  .cf_main_d-3_d-2 {
+    flex-direction: column-reverse;
+  }
+  /* == Imagen Quiénes Somos == */
+  .cf_main_d-3_d-2_img-1 {
+    width: 351px;
+    height: 351px;
+    border-radius: 0 0 14px 14px;
+    content: url("../recursos/imagenes/cf_imagen-quienes-somos_t-2.png");
+  }
+  /* == Contenedor de párrafo Quienes Somos y párrafos de descripción == */
+  .cf_main_d-3_d-2_d-2 {
+    max-width: none;  
+    padding: 50px 18px 14px;
+  }
+  /* == Párrafo Quienes Somos == */
+  /* == Párrafo de descripción == */
+  .cf_main_d-3_d-2_d-2 p {
+    max-width: none;
+  }
+  /* == Párrafo de descripción == */
+  .cf_main_d-3_d-2_d-2_p-t-1:nth-of-type(2) {
+    margin-top: 18px;
   }
 }
 /* == Resolución de ancho máximo de 670px =================== */
@@ -472,28 +598,6 @@
     margin: 12px auto 0;
     padding: 6px 6px 0;
     font-size: 0.6875em;
-  }
-  /* == Contenedor de Qué Esperar, Quienes Somos, Quién Participa, Crecemos y Aprendemos Juntos == */
-  .cf_main_d-3 {
-    padding-top: 36px;
-  }
-  /* == Contenedor Qué Esperar == */
-  .cf_main_d-3_d-1 {
-    flex-direction: column;
-    gap: 60px;
-  }
-  /* == Contenedor de párrafos Qué Esperar, descripción y características == */
-  .cf_main_d-3_d-1_d-1 {
-    padding-top: 0;
-  }
-  /* == Párrafo de descripción == */
-  .cf_main_d-3_d-1_d-1_p-2 {
-    margin-top: 36px;
-  }
-  /* == Imagen Que Esperar == */
-  .cf_main_d-3_d-1_d-2 img {
-    width: 334px;
-    height: 336px;
   }
 }
 /* == Resolución de ancho mínimo de 540px =================== */
@@ -586,6 +690,20 @@
     margin: 8px auto 0;
   }
 }
+/* == Resolución de ancho máximo de 374px =================== */
+@media (max-width: 374px)
+{
+  /* == Imagen Que Esperar == */
+  .cf_main_d-3_d-1_img-1 {
+    width: 336px;
+    height: 336px;
+  }
+  /* == Imagen Quiénes Somos == */
+  .cf_main_d-3_d-2_img-1 {
+    width: 336px;
+    height: 336px;
+  }
+}
 /* == Resolución de ancho mínimo de 360px =================== */
 @media (max-width: 360px)
 {
@@ -646,8 +764,13 @@
     font-size: 0.625em;
   }
   /* == Imagen Que Esperar == */
-  .cf_main_d-3_d-1_d-2 img {
-    width: 294px;
+  .cf_main_d-3_d-1_img-1 {
+    width: 296px;
+    height: 296px;
+  }
+  /* == Imagen Quiénes Somos == */
+  .cf_main_d-3_d-2_img-1 {
+    width: 296px;
     height: 296px;
   }
 }
@@ -717,8 +840,13 @@
     margin-top: 24px;
   }
   /* == Imagen Que Esperar == */
-  .cf_main_d-3_d-1_d-2 img {
-    width: 214px;
+  .cf_main_d-3_d-1_img-1 {
+    width: 216px;
+    height: 216px;
+  }
+  /* == Imagen Quiénes Somos == */
+  .cf_main_d-3_d-2_img-1 {
+    width: 216px;
     height: 216px;
   }
 }

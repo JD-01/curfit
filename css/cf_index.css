@@ -55,6 +55,7 @@
 }
 .cf_contenedor-header_d-1_p-3 {
   margin-top: 6px;
+  /*background-color: blueviolet;*/
 }
 /* == Enlace Elige tu Curso == */
 .cf_contenedor-header_d-1_a-1 {
@@ -505,8 +506,9 @@
   }
   /* == Imagen Que Esperar == */
   .cf_main_d-3_d-1_img-1 {
-    width: 351px;
-    height: 351px;
+    max-width: 406px;
+    width: 100%;
+    height: auto;
   }
   /* == Contenedor Quiénes Somos == */
   .cf_main_d-3_d-2 {
@@ -514,14 +516,15 @@
   }
   /* == Imagen Quiénes Somos == */
   .cf_main_d-3_d-2_img-1 {
-    width: 351px;
-    height: 351px;
+    max-width: 406px;
+    width: 100%;
+    height: auto;
     border-radius: 0 0 14px 14px;
     content: url("../recursos/imagenes/cf_imagen-quienes-somos_t-2.png");
   }
   /* == Contenedor de párrafo Quienes Somos y párrafos de descripción == */
   .cf_main_d-3_d-2_d-2 {
-    max-width: none;  
+    max-width: none;
     padding: 50px 18px 14px;
   }
   /* == Párrafo Quienes Somos == */
@@ -690,20 +693,6 @@
     margin: 8px auto 0;
   }
 }
-/* == Resolución de ancho máximo de 374px =================== */
-@media (max-width: 374px)
-{
-  /* == Imagen Que Esperar == */
-  .cf_main_d-3_d-1_img-1 {
-    width: 336px;
-    height: 336px;
-  }
-  /* == Imagen Quiénes Somos == */
-  .cf_main_d-3_d-2_img-1 {
-    width: 336px;
-    height: 336px;
-  }
-}
 /* == Resolución de ancho mínimo de 360px =================== */
 @media (max-width: 360px)
 {
@@ -762,16 +751,6 @@
     margin: 6px auto 0;
     padding: 5px 3px 0;
     font-size: 0.625em;
-  }
-  /* == Imagen Que Esperar == */
-  .cf_main_d-3_d-1_img-1 {
-    width: 296px;
-    height: 296px;
-  }
-  /* == Imagen Quiénes Somos == */
-  .cf_main_d-3_d-2_img-1 {
-    width: 296px;
-    height: 296px;
   }
 }
 /* == Resolución de ancho mínimo de 319px =================== */
@@ -838,16 +817,6 @@
   /* == Contenedor de caracteristica == */
   .cf_main_d-3_d-1_d-1_d-t-1:first-of-type {
     margin-top: 24px;
-  }
-  /* == Imagen Que Esperar == */
-  .cf_main_d-3_d-1_img-1 {
-    width: 216px;
-    height: 216px;
-  }
-  /* == Imagen Quiénes Somos == */
-  .cf_main_d-3_d-2_img-1 {
-    width: 216px;
-    height: 216px;
   }
 }
 /* == Resolución de ancho mínimo de 260px =================== */

@@ -5,7 +5,6 @@
        url('../recursos/fuentes/ttf/archivo_900_black.ttf')     format('truetype'), /* Safari, Android, iOS */
        url('../recursos/fuentes/woff/archivo_900_black.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
        url('../recursos/fuentes/woff2/archivo_900_black.woff2') format('woff2');    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
-
   font-weight: 900;
   font-style: normal;
 }

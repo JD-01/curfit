@@ -399,7 +399,6 @@
 .cf_main_d-3_d-2_d-2 p {
   max-width: 510px;
   width: 100%;
-  /* background-color: #F16F5E; */
 }
 /* == Párrafo Quienes Somos == */
 .cf_main_d-3_d-2_d-2_p-1 {
@@ -615,8 +614,7 @@
   display: flex;
   position: relative;
   z-index: 2;
-  /* gap: 14px; */
-  gap: 34px;
+  gap: 28px;  
   align-items: center;
   min-height: 83px;
   margin-top: 24px;
@@ -680,6 +678,14 @@
   border-radius: 0 0 10px 10px;
   background-color: #000;
 }
+/* == Contenedor de Respuesta (Tipo 2) - Estado 1 == */
+.cf_main_d-4_d-1_d-t-2_e-1 {
+  display: none;
+}
+/* == Contenedor de Respuesta (Tipo 2) - Estado 2 == */
+.cf_main_d-4_d-1_d-t-2_e-2 {
+  display: block;
+}
 /* == Fondo superior sobresaliente == */
 .cf_main_d-4_d-1_d-t-2 hr {
   display: block;
@@ -698,7 +704,6 @@
   line-height: 1.5em;
   color: rgba(255, 244, 244, 0.75);
 }
-
 /* == Contenedor de Creamos, Educamos, Unimos y Elige tu Curso == */
 .cf_main_d-4_d-2 {
   display: flex;
@@ -707,7 +712,7 @@
   max-width: 1280px;
   width: 100%;
   min-height: 325px;
-  margin: 140px auto 0;
+  margin: 120px auto 0;
   padding: 30px;
   border-radius: 10px;
   background-color: #EC3E28;
@@ -730,7 +735,7 @@
 .cf_main_d-4_d-2_d-1_p-1 {
   font-size: 3em;
   color: #FFF;
-  line-height: 1.2em;  
+  line-height: 1.2em;
 }
 /* == Párrafo de descripción == */
 .cf_main_d-4_d-2_d-1_p-2 {
@@ -787,10 +792,11 @@
   /* == Párrafo Qué Esperar == */
   .cf_main_d-3_d-1_d-1_p-1 {
     font-size: 2.25em;
+    /* line-height: 1.2em; */
   }
   /* == Contenedor de caracteristica == */
   .cf_main_d-3_d-1_d-1_d-t-1:first-of-type {
-    margin-top: 32px;
+    margin-top: 32px; /*36px*/
   }
   /* == Párrafo de descripción == */
   /* == Párrafo de característica == */
@@ -917,6 +923,41 @@
     margin-top: 8px;
     font-size: 0.75em;
   }
+  /* == Contenedor de Preguntas Frecuentes y Creamos, Educamos, Unimos == */
+  .cf_main_d-4 {
+    padding: 60px 12px 90px;
+  }
+  /* == Párrafo Preguntas Frecuentes == */
+  .cf_main_d-4_p-1 {
+    font-size: 2.25em;
+  }
+  /* == Contenedor de Preguntas Frecuentes == */
+  .cf_main_d-4_d-1 {
+    margin-top: 40px;
+  }
+  /* == Contenedor de Pregunta Frecuente (Tipo 1) == */
+  .cf_main_d-4_d-1_d-t-1 {
+    gap: 14px;
+    min-height: 73px;
+    margin-top: 12px;
+    padding: 12px 17px;
+  }
+  /* == Párrafo Pregunta Frecuente == */
+  .cf_main_d-4_d-1_d-t-1 p {
+    font-size: 1em;
+  }
+  /* == Contenedor de Respuesta (Tipo 2) == */
+  .cf_main_d-4_d-1_d-t-2 {
+    padding: 20px 26px;
+  }
+  /* == Párrafo Respuesta == */
+  .cf_main_d-4_d-1_d-t-2 p {
+    font-size: 1em;
+  }
+  /* == Contenedor de Creamos, Educamos, Unimos y Elige tu Curso == */
+  .cf_main_d-4_d-2 {
+    margin-top: 90px;
+  }
   /* == Contenedor de párrafos Creamos, Educamos, Unimos y descripción == */
   .cf_main_d-4_d-2_d-1 {
     margin-left: 0;
@@ -955,11 +996,7 @@
   /* == Contenedor de CurFit por el Mundo == */
   .cf_main_d-3_d-4_d-1_d-1 {
     right: 0;
-  }
-  /* == Contenedor de Preguntas Frecuentes y Creamos, Educamos, Unimos == */
-  .cf_main_d-4 {
-    padding: 90px 12px;  
-  }
+  }  
   /* == Contenedor de Creamos, Educamos, Unimos y Elige tu Curso == */
   .cf_main_d-4_d-2 {
     display: flex;
@@ -967,8 +1004,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
-    min-height: 0;  
-    margin-top: 90px;
+    min-height: 0;
     background-image: none;
   }
   /* == Contenedor de párrafos Creamos, Educamos, Unimos y descripción == */
@@ -977,7 +1013,7 @@
   }
   /* == Párrafo Creamos, Educamos, Unimos == */
   .cf_main_d-4_d-2_d-1_p-1 {
-    text-align: center;  
+    text-align: center;
   }
   /* == Párrafo de descripción == */
   .cf_main_d-4_d-2_d-1_p-2 {
@@ -994,7 +1030,7 @@
   /* == Contenedor Qué Esperar == */
   .cf_main_d-3_d-1 {
     flex-direction: column;
-    gap: 48px;
+    gap: 48px; /*60px*/
   }
   /* == Contenedor de párrafos Qué Esperar, descripción y características == */
   .cf_main_d-3_d-1_d-1 {
@@ -1027,7 +1063,7 @@
   /* == Párrafo Quienes Somos == */
   /* == Párrafo de descripción == */
   .cf_main_d-3_d-2_d-2 p {
-    max-width: none;  
+    max-width: none;
   }
   /* == Párrafo de descripción == */
   .cf_main_d-3_d-2_d-2_p-t-1:nth-of-type(2) {
@@ -1035,7 +1071,7 @@
   }
 }
 /* == Resolución de ancho máximo de 670px =================== */
-@media (max-width: 670px)
+@media (max-width: 670px) /*652px*/
 {
   /* == Contenedor Elige tu Curso == */
   .cf_main_d-2 {
@@ -1173,6 +1209,7 @@
     display: flex;
     flex-direction: column-reverse;
   }
+
   /* == Contenedor de CurFit por el Mundo == */
   .cf_main_d-3_d-4_d-1_d-1 {
     position: initial;

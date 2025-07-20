@@ -1,0 +1,26 @@
+/* ========================================================== */
+/* == Contenedor base ======================================= */
+
+.cf_contenedor-header {
+  min-height: 528px;
+  height: 100%;
+}
+
+/* ============================================================================ */
+/* == Contenedor de título Nombre del Curso y párrafo Impartido por Profesor == */
+
+.cf_contenedor-header_d-1 {
+  min-height: 450px;
+  height: 100%;
+  padding: 110px;
+}
+/* == Título Nombre del Curso == */
+.cf_contenedor-header_d-1_h1-1 {
+  font-size: 5em;
+  color: #fff;
+}
+/* == Párrafo Impartido el por Profesor == */
+.cf_contenedor-header_d-1_p-1 {
+  font-size: 1.25em;
+  color: #fff; 
+}

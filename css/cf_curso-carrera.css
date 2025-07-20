@@ -1,0 +1,21 @@
+/* ========================================================== */
+/* ========================================================== */
+/* == Contenedor base ======================================= */
+
+.cf_contenedor-header {
+  background-image:
+    url("../recursos/imagenes/cf_fondo-4_t-2.png"),
+    linear-gradient(90deg, #000 274px, rgba(0, 0, 0, 0) 1372px),
+    url("../recursos/imagenes/cf_fondo-4_t-1.png")
+  ;
+  background-position:
+    -168px 78px,
+    left top,
+    274px center
+  ;
+  background-size:
+    564px 508px,
+    1372px auto,
+    cover
+  ;
+}

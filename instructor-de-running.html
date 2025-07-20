@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- == ## Head ######################################################################################################### == -->
+
+<head>
+
+<!-- == ## Metadata ##################################### == -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- == ## Título ####################################### == -->
+
+<title>CurFit - Instructor de Running</title>
+
+<!-- == ## CSS Externo ################################## == -->
+
+<link rel="stylesheet" href="css/cf_fuentes.css">
+<link rel="stylesheet" href="css/cf_global.css">
+<link rel="stylesheet" href="css/cf_curso_t-1.css">
+<link rel="stylesheet" href="css/cf_curso-carrera.css">
+
+</head>
+
+<!-- == ## Body ######################################################################################################### == -->
+
+<body>
+
+<!-- == #### Contenedor base ############################ == -->
+<div class="cf_contenedor-base">
+
+  <!-- == Contenedor del header, textos de presentación y botón Elije tu Curso == -->
+  <div class="cf_contenedor-header">
+
+    <!-- == #### Header ################################# == -->
+    <header>
+
+      <!-- == Contenedor de elementos del header == -->
+      <div class="cf_header_d-1">
+
+        <!-- == Fondo de botón del menú 1 (versión móvil- enlaces generales) == -->
+        <hr id="cf_button-menu-1_fondo" class="cf_header_d-1_hr-1 cf_header_d-1_hr-1_e-1">
+
+        <!-- == Botón del menú 1 (versión móvil- enlaces generales)
+        cf_header_d-1_button-1_e-1
+        == -->
+        <button id="cf_button-menu-1" class="cf_header_d-1_button-1">
+
+          <!-- == Barras horizontales == -->
+          <div id="cf_button-menu-1_barras" class="cf_header_d-1_button-1_d-1 cf_header_d-1_button-1_d-1_e-1">
+            <hr><hr><hr>
+          </div>
+
+          <!-- == Equis (X) == -->
+          <div id="cf_button-menu-1_equis" class="cf_header_d-1_button-1_d-2 cf_header_d-1_button-1_d-2_e-1">
+            <hr class="hr-1"><hr class="hr-2">
+          </div>
+
+        </button>
+
+        <!-- == Menú 1 (versión movil - enlaces generales) == -->
+        <div id="cf_menu-1" class="cf_header_d-1_d-1 cf_header_d-1_d-1_e-1">
+
+          <!-- == Enlace Todos == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_d-1_a-t-1">QUIENES SOMOS</a>
+
+          <!-- == Contenedor de barra horizontal de separación == -->
+          <div class="cf_header_d-1_d-1_d-t-1">
+            <!-- == Barra horizontal de separación == -->
+            <hr>
+          </div>
+
+          <!-- == Enlace Cómo funciona == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_d-1_a-t-1">CÓMO FUNCIONA</a>
+
+          <!-- == Contenedor de barra horizontal de separación == -->
+          <div class="cf_header_d-1_d-1_d-t-1">
+            <!-- == Barra horizontal de separación == -->
+            <hr>
+          </div>
+
+          <!-- == Enlace Cursos == -->
+          <a href="#elige-tu-curso" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_d-1_a-t-1">CURSOS</a>
+
+          <!-- == Enlace Todos == -->
+          <a href="#elige-tu-curso" class="roboto-regular cf_g_header_a-t-2 cf_header_d-1_d-1_a-t-2">Todos</a>
+
+          <!-- == Enlace Instructor de Running == -->
+          <a href="instructor-de-running.html" class="roboto-regular cf_g_header_a-t-2 cf_header_d-1_d-1_a-t-2">Instructor de Running</a>
+
+            <!-- == Flecha en L
+            <div class="cf_header_d-1_d-1_d-1">
+              <hr class="hr-1"><hr class="hr-2"><hr class="hr-3"><hr class="hr-4">
+            </div>
+            == -->
+            <!-- == Texto de enlace
+            <p></p>
+            == -->
+
+          <!-- == Contenedor de barra horizontal de separación == -->
+          <div class="cf_header_d-1_d-1_d-t-1">
+            <!-- == Barra horizontal de separación == -->
+            <hr>
+          </div>
+
+          <!-- == Enlace Contacto == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_d-1_a-t-1">CONTACTO</a>
+
+          <!-- == Contenedor de barra horizontal de separación == -->
+          <div class="cf_header_d-1_d-1_d-t-1">
+            <!-- == Barra horizontal de separación == -->
+            <hr>
+          </div>
+
+          <!-- == Enlace Carrito == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_d-1_a-t-1">CARRITO</a>
+
+          <!-- == Contenedor de barra horizontal de separación == -->
+          <div class="cf_header_d-1_d-1_d-t-1">
+            <!-- == Barra horizontal de separación == -->
+            <hr>
+          </div>
+
+          <!-- == Enlace Mi Cuenta == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_d-1_a-t-1">MI CUENTA</a>
+
+        </div>
+
+        <!-- == Enlace de Imagen-Texto CurFit == -->
+        <a href="#" class="archivo-black-italic cf_g_a-curfit cf_header_d-1_a-1">
+
+          <!-- == Imagen-Texto CurFit == -->
+          <img src="recursos/imagenes/cf_curfit-blanco.png" alt="CurFit">
+
+        </a>
+
+        <!-- == Contenedor de enlaces Quienes somos, Como funciona, Cursos, Contacto y del contenedor del menú 2 (versión desktop - enlaces de cursos)
+        cf_header_d-1_nav-1_e-1
+        == -->
+        <nav class="cf_header_d-1_nav-1">
+
+          <!-- == Enlace Quienes somos == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_a-t-1">QUIENES SOMOS</a>
+
+          <!-- == Enlace Cómo funciona == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_a-t-1">CÓMO FUNCIONA</a>
+
+          <!-- == Contenedor de enlace Cursos, icono flecha abajo-arriba y contenedor del menú 2 (versión desktop - enlaces de cursos) == -->
+          <div class="cf_header_d-1_nav-1_d-1">
+
+            <!-- == Enlace Cursos == -->
+            <a href="#elige-tu-curso" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_a-t-1">CURSOS</a>
+
+            <!-- == Icono flecha abajo
+            <img src="recursos/iconos/icono-flecha-abajo_t-1_e-1.png" alt="Flecha" class="roboto-medium-italic cf_header_d-1_img-t-1">
+            == -->
+
+            <!-- == Botón flecha abajo-arriba == -->
+            <button id="cf_button-menu-2" class="cf_g_flecha-t-1 cf_header_d-1_nav-1_d-1_button-1">
+
+              <!-- == Flecha abajo-arriba == -->
+              <hr class="cf_g_flecha-t-1_hr-1"><hr class="cf_g_flecha-t-1_hr-2">
+
+            </button>
+
+            <!-- == Contenedor del menú 2 (versión desktop - enlaces de cursos) == -->
+            <div id="cf_menu-2" class="cf_header_d-1_nav-1_d-1_d-2 cf_header_d-1_nav-1_d-1_d-2_e-1">
+
+              <!-- == Enlace Todos == -->
+              <a href="#elige-tu-curso" class="roboto-regular cf_g_header_a-t-2">Todos</a>
+
+              <!-- == Enlace Instructor de Running == -->
+              <a href="instructor-de-running.html" class="roboto-regular cf_g_header_a-t-2">Instructor de Running</a>
+
+            </div>
+
+          </div>
+
+          <!-- == Enlace Contacto == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_a-t-1">CONTACTO</a>
+
+        </nav>
+
+        <!-- == Contenedor de enlaces Carrito y Mi cuenta == -->
+        <nav class="cf_header_d-1_nav-2">
+
+          <!-- == Enlace Carrito == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_a-t-1 a-1">
+
+            <!-- == Icono Carrito == -->
+            <img src="recursos/iconos/icono-carrito_t-1_e-1.png" alt="Carrito" class="roboto-medium-italic cf_header_d-1_img-t-1 img-1">
+
+            <!-- == Cantidad de elementos del carrito == -->
+            <p class="roboto-regular p-1 p-1_e-1">0</p>
+
+            <!-- == Carrito == -->
+            <p class="p-t-1">CARRITO</p>
+
+          </a>
+
+          <!-- == Enlace Mi cuenta == -->
+          <a href="#" class="roboto-medium cf_g_header_a-t-1 cf_header_d-1_a-t-1">
+
+            <!-- ==  == -->
+            <img src="recursos/iconos/icono-usuario_t-1_e-1.png" alt="Carrito" class="roboto-medium-italic cf_header_d-1_img-t-1 img-2">
+
+            <!-- ==  == -->
+            <p class="p-t-1">MI CUENTA</p>
+
+          </a>
+
+        </nav>
+
+      </div>
+
+    </header>
+
+    <!-- == Contenedor de título Nombre del Curso y párrafo Impartido por Profesor == -->
+    <div class="cf_contenedor-header_d-1">
+
+      <!-- == Título Nombre del Curso == -->
+      <h1 class="oswald-bold cf_contenedor-header_d-1_h1-1">ENTRENADOR DE RUNNING</h1>
+
+      <!-- == Párrafo Impartido por el Profesor == -->
+      <p class="roboto-regular cf_contenedor-header_d-1_p-1">Impartido por el <span class="roboto-bold">Dr. Rodrigo Gomes da Rosa</span></p>
+
+    </div>
+
+  </div>
+
+  <!-- == #### Main ##################################### == -->
+
+
+
+  <!-- == #### Footer ################################### == -->
+  <footer>
+
+    <!-- == Contenedor de elementos del footer (Superior) == -->
+    <div class="cf_footer_d-1">
+
+      <!-- == Contenedor de enlace imagen-texto CurFit y párrafo Explora cursos de running ..., enlaces de Carreras y Acerca de, enlace Síguenos y botón Idioma == -->
+      <div class="cf_footer_d-1_d-1">
+
+        <!-- == Contenedor de enlace de imagen-texto CurFit y párrafo Explora cursos de running ... == -->
+        <div class="cf_footer_d-1_d-1_d-1">
+
+          <!-- == Enlace de Imagen-Texto CurFit == -->
+          <a href="#" class="archivo-black-italic cf_g_a-curfit">
+
+            <!-- == Imagen-Texto CurFit == -->
+            <img src="recursos/imagenes/cf_curfit-blanco.png" alt="CurFit">
+
+          </a>
+
+          <!-- == Párrafo Explora cursos de running ... == -->
+          <p class="roboto-regular">Explora cursos de running, yoga, prescripción de ejercicios, pilates, nutrición deportiva y más.<br>¡Comienza tu viaje hacia el bienestar con nosotros!</p>
+
+        </div>
+
+        <!-- == Contenedor adaptable (Contenedor Carreras, Acerca de y contenedor de Síguenos e Idioma) == -->
+        <div class="cf_footer_d-1_d-1_d-flex-1">
+
+          <!-- == Contenedor adaptable (Contenedor de Carreras y Acerca de) == -->
+          <div class="cf_footer_d-1_d-1_d-2">
+
+            <!-- == Contenedor Carreras == -->
+            <div class="cf_footer_d-1_d-1_d-2_d-1">
+
+              <!-- == Párrafo Carreras == -->
+              <p class="oswald-bold">CARRERAS</p>
+
+              <!-- == Enlace Aptitud Física == -->
+              <a href="" class="roboto-regular">Aptitud Física</a>
+
+              <!-- == Salud y Bienestar == -->
+              <a href="" class="roboto-regular">Salud y Bienestar</a>
+
+              <!-- == Mi Cuenta == -->
+              <a href="" class="roboto-regular"">Mi Cuenta</a>
+
+              <!-- == Preguntas Frecuentes == -->
+              <a href="" class="roboto-regular"">Preguntas Frecuentes</a>
+
+            </div>
+
+            <!-- == Contenedor Acerca de == -->
+            <div class="cf_footer_d-1_d-1_d-2_d-2">
+
+              <!-- == Párrafo Acerca de == -->
+              <p class="oswald-bold">ACERCA DE</p>
+
+              <!-- == Enlace Quienes Somos == -->
+              <a href="" class="roboto-regular">Quienes Somos</a>
+
+              <!-- == Enlace Como Funciona == -->
+              <a href="" class="roboto-regular">Como Funciona</a>
+
+              <!-- == Enlace Testimonios == -->
+              <a href="" class="roboto-regular">Testimonios</a>
+
+              <!-- == Enlace Contacto == -->
+              <a href="" class="roboto-regular">Contacto </a>
+
+            </div>
+
+          </div>
+
+          <!-- == Contenedor de Síguenos e Idioma == -->
+          <div class="cf_footer_d-1_d-1_d-3">
+
+            <!-- == Contenedor adaptable (Contenedor de párrafo y enlaces de Síguenos) == -->
+            <div class="cf_footer_d-1_d-1_d-3_d-flex-1">
+
+              <!-- == Párrafo Síguenos == -->
+              <p class="oswald-bold cf_footer_d-1_d-1_d-3_p-1">SÍGUENOS</p>
+
+              <!-- == Contenedor de enlaces de Síguenos == -->
+              <div class="cf_footer_d-1_d-1_d-3_d-1">
+
+                <!-- == Enlace de icono Telegram == -->
+                <a href="#" class="cf_footer_d-1_d-1_d-3_d-1_a-1">
+
+                  <!-- == Icono Telegram == -->
+                  <img src="recursos/iconos/icono-instagram_t-1_e-1.png" alt="Telegram" class="roboto-medium-italic">
+
+                </a>
+
+                <!-- == Enlace de icono Facebook == -->
+                <a href="#" class="cf_footer_d-1_d-1_d-3_d-1_a-2">
+
+                  <!-- == Icono Facebook == -->
+                  <img src="recursos/iconos/icono-facebook_t-1_e-1.png" alt="Facebook" class="roboto-medium-italic">
+
+                </a>
+
+                <!-- == Enlace de icono Youtube == -->
+                <a href="#" class="cf_footer_d-1_d-1_d-3_d-1_a-3">
+
+                  <!-- == Icono Youtube == -->
+                  <img src="recursos/iconos/icono-youtube_t-1_e-1.png" alt="Youtube" class="roboto-medium-italic">
+
+                </a>
+
+                <!-- == Enlace de icono LinkedIn == -->
+                <a href="#" class="cf_footer_d-1_d-1_d-3_d-1_a-4">
+
+                  <!-- == Icono Youtube == -->
+                  <img src="recursos/iconos/icono-linkedin_t-1_e-1.png" alt="LinkedIn" class="roboto-medium-italic">
+
+                </a>
+
+              </div>
+
+            </div>
+
+            <!-- == Contenedor adaptable (Botón Idioma y contenedor de enlaces de idiomas (Menú 3)) == -->
+            <div class="cf_footer_d-1_d-1_d-3_d-flex-2">
+
+              <!-- == Botón Idioma == -->
+              <button type="button" id="cf_button-menu-3" class="cf_footer_d-1_d-1_d-3_d-1_button-1">
+
+                <!-- == Icono globo de idioma == -->
+                <img src="recursos/iconos/icono-globo-idioma_t-1_e-1.png" alt="Globo" class="roboto-medium-italic">
+
+                <!-- == Párrafo Idioma == -->
+                <p class="roboto-regular">Idioma</p>
+
+                <!-- == Contenedor de flecha abajo-arriba == -->
+                <div id="cf_button-menu-3_flecha" class="cf_g_flecha-t-1">
+
+                  <!-- == Flecha abajo-arriba == -->
+                  <hr class="cf_g_flecha-t-1_hr-1"><hr class="cf_g_flecha-t-1_hr-2">
+
+                </div>
+
+              </button>
+
+              <!-- == Contenedor de enlaces de idiomas (Menú 3) == -->
+              <div id="cf_menu-3" class="cf_footer_d-1_d-1_d-3_d-2 cf_footer_d-1_d-1_d-3_d-2_e-1">
+
+                <!-- == Enlace idioma Español == -->
+                <a href="#" class="roboto-regular">Español</a>
+
+                <!-- == Enlace idioma Español == -->
+                <a href="#" class="roboto-regular">Português</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- == Contenedor de elementos del footer (Inferior) == -->
+    <div class="cf_footer_d-2">
+
+      <!-- == Contenedor de parrafo Todos los derechos reservados, parrafo de enlaces Política de Privacidad y Términos y Condiciones == -->
+      <div class="cf_footer_d-2_d-1">
+
+        <!-- == Parrafo Todos los derechos reservados == -->
+        <p class="roboto-regular">© 2025 <span class="archivo-black-italic span-1">CurFit</span> - Todos los derechos reservados</p>
+
+        <!-- == Parrafo de enlaces Política de Privacidad y Términos y Condiciones == -->
+        <p class="roboto-regular"><a href="#">Política de Privacidad</a><span class="roboto-black span-2">|</span><a href="#">Términos y Condiciones</a></p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</div>
+
+<!-- == ## Scripts ###################################################################################################### == -->
+
+<script src="js/global.js"></script>
+
+<!-- == ################################################################################################################# == -->
+
+</body>
+
+</html>
